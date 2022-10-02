@@ -21,6 +21,3 @@ design:
   # Add custom styles
   css_class: d-flex fullscreen align-items-center
 ---
-
-Die **Steve Taylor Blues Band** ist eine blues band aus dem Rhein-Mosel Delta (Koblenz) gegründet 2013.
-{style="font-size: 1.2rem;"}

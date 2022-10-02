@@ -6,8 +6,7 @@
 widget: hero # See https://wowchemy.com/docs/page-builder/
 headless: true # This file represents a page section.
 weight: 10 # Order that this section will appear.
-title: |
-  Steve Taylor Blues Band
+title: Steve Taylor Blues Band
 hero_media: band_bw.png
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.

@@ -22,5 +22,3 @@ design:
   show_role: true
   show_social: false
 ---
-
-Die Band wurde im Jahr 2013 gegründet. Sie besteht momentan aus 5 Mitgliedern.

@@ -17,7 +17,7 @@ design:
     image_position: center
     image_parallax: true
     text_color_light: true
-    image_darken: 0.3
+    image_darken: 0.5
   # Add custom styles
   css_class: d-flex fullscreen align-items-center
 ---

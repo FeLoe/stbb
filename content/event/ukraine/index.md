@@ -46,6 +46,8 @@ slides:
 projects:
 ---
 
+{{< gallery album="band" >}}
+
 Slides can be added in a few ways:
 
 - **Create** slides using Wowchemy's [_Slides_](https://wowchemy.com/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file

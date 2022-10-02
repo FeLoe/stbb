@@ -1,7 +1,6 @@
 ---
 title: rhine-mosel-delta blues
 author: Martin
-url: https://youtu.be/ibi250nIKAU
 ---
 
 Der Rhine-Mosel-Delta Blues war unser erster eigener Blues.

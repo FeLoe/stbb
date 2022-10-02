@@ -15,7 +15,7 @@ design:
 
 content:
   slides:
-    - title: 👋 Welcome to the group
+    - title: Giving some impressions
       content: Take a look at what we're working on...
       align: center
       background:
@@ -23,15 +23,15 @@ content:
         color: "#666"
         brightness: 0.7
         media: microphone.jpg
-    - title: Lunch & Learn ☕️
-      content: "Share your knowledge with the group and explore exciting new topics together!"
+    - title: Put something interesting here
+      content: Work in progress
       align: left
       background:
         position: center
         color: "#555"
         brightness: 0.7
         media: band_bw2.jpg
-    - title: World-Class Semiconductor Lab
+    - title: To be filled
       content: "Just opened last month!"
       align: right
       background:
@@ -39,9 +39,4 @@ content:
         color: "#333"
         brightness: 0.5
         media: scheinwerfer.jpg
-      link:
-        icon: graduation-cap
-        icon_pack: fas
-        text: Join Us
-        url: ../contact/
 ---

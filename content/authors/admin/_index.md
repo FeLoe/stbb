@@ -1,12 +1,9 @@
 ---
 # Display name
-title: Steve Taylor Blues Band
+title: STBB
 
 # Is this the primary user of the site?
 superuser: true
-
-# Role/position
-role: Blues Band
 
 # Short bio (displayed in user profile at end of posts)
 bio: Wir sind eine Blues Band aus dem Rhein-Mosel Delta (Koblenz).
@@ -19,6 +16,12 @@ social:
   - icon: envelope
     icon_pack: fas
     link: "mailto:schwaab@gmx.net"
+  - icon: music
+    icon_pack: fas
+    link: ""
+  - icon: clipboard-list
+    icon_pack: fas
+    link: static/files/stagerider.pdf
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -36,5 +39,3 @@ highlight_name: false
 user_groups:
   - Researchers
 ---
-
-Die Steve Taylor Blues Band ist eine Band an Rhein und Mosel.

@@ -30,7 +30,7 @@ content:
         position: center
         color: "#555"
         brightness: 0.7
-        media: band_bw2.jpg
+        media: band_bw.png
     - title: To be filled
       content: "Just opened last month!"
       align: right

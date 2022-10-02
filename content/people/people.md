@@ -7,7 +7,7 @@ widget: people
 headless: true
 
 # Order that this section appears on the page.
-weight: 68
+weight: 10
 
 title: Band Members
 subtitle:
@@ -22,3 +22,5 @@ design:
   show_role: true
   show_social: false
 ---
+
+Die Band wurde im Jahr 2013 gegründet. Sie besteht momentan aus 5 Mitgliedern.

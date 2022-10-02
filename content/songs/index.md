@@ -1,4 +1,5 @@
 ---
+title: Songs
 # Homepage
 type: widget_page
 

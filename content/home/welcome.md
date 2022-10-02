@@ -3,21 +3,23 @@
 # Any elements can be added in the body: https://wowchemy.com/docs/writing-markdown-latex/
 # Add more sections by duplicating this file and customizing to your requirements.
 
-widget: hero # See https://wowchemy.com/docs/page-builder/
+widget: about.avatar # See https://wowchemy.com/docs/page-builder/
 headless: true # This file represents a page section.
 weight: 10 # Order that this section will appear.
-title: Steve Taylor Blues Band
-hero_media: band_bw.png
+author: admin
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: "1"
   background:
-    color: #000000
+    color: black
+    image: band_bw.png
+    image_size: cover
+    image_position: right
+    image_parallax: true
+    text_color_light: true
   # Add custom styles
-  css_style:
-  css_class:
+  css_class: d-flex align-items-center
 ---
 
-<br>
-
 Die **Steve Taylor Blues Band** ist eine Blues band im Rhein-Mosel Delta (Koblenz) seit 2013.
+{style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}

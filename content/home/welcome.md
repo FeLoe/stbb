@@ -10,8 +10,9 @@ title: Steve Taylor Blues Band
 hero_media: band_bw.png
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: "2"
-  background: black
+  columns: "1"
+  background:
+    color: #000000
   # Add custom styles
   css_style:
   css_class:

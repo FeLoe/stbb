@@ -17,7 +17,7 @@ main:
     url: gallery
     weight: 40
   - name: Songs
-    url: songs
+    url: accomplishments
     weight: 50
   - name: Kontakt
     url: contact

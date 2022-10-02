@@ -1,5 +1,5 @@
 ---
-title: News
+title: Songs
 
 # Listing view
 view: list

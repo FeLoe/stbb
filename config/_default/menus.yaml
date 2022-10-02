@@ -6,16 +6,22 @@
 main:
   - name: News
     url: post
-    weight: 20
-  - name: Members
+    weight: 10
+  - name: About Us
     url: people
-    weight: 30
+    weight: 20
   - name: Events
     url: event
-    weight: 40
+    weight: 30
   - name: Gallery
     url: gallery
-    weight: 10
+    weight: 40
+  - name: Songs
+    url: songs
+    weight: 50
+  - name: Stage Rider
+    url: stagerider
+    weight: 60
   - name: Contact
     url: contact
-    weight: 50
+    weight: 70

@@ -1,11 +1,11 @@
 ---
-title: Recent & Upcoming Events
+title: Gigs
 
 # Listing view
 view: compact
 
 # Optional header image (relative to `assets/media/` folder).
 banner:
-  caption: ''
-  image: ''
+  caption: ""
+  image: "microphone.jpg"
 ---

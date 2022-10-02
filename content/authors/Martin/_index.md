@@ -11,7 +11,7 @@ superuser: true
 role: Vocal/Harp
 
 # Short bio (displayed in user profile at end of posts)
-bio: Unser Guitar Hero
+bio: Unser Voice Hero
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons

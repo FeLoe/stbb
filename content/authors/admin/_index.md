@@ -1,6 +1,6 @@
 ---
 # Display name
-title: STBB
+title: Steve Taylor Blues Band
 
 # Is this the primary user of the site?
 superuser: true

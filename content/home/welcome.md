@@ -13,11 +13,11 @@ design:
   background:
     color: black
     image: band_bw.png
-    image_size: cover
+    image_size: contain
     image_position: center
     image_parallax: true
     text_color_light: true
-    image_darken: 0.4
+    image_darken: 0.3
   # Add custom styles
   css_class: d-flex fullscreen align-items-center
 ---

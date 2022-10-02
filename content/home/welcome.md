@@ -11,6 +11,7 @@ hero_media: band_bw.png
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns: "2"
+  background: black
   # Add custom styles
   css_style:
   css_class:
@@ -18,4 +19,4 @@ design:
 
 <br>
 
-Die **Steve Taylor Blues Band** ist eine Blues band im Rhein-Mosel Delta (Koblenz) seit XXX.
+Die **Steve Taylor Blues Band** ist eine Blues band im Rhein-Mosel Delta (Koblenz) seit 2013.

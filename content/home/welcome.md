@@ -12,7 +12,7 @@ design:
   columns: "1"
   background:
     color: black
-    image: band_color.png
+    image: band_bw.png
     image_size: cover
     image_position: right
     image_parallax: true

@@ -1,5 +1,5 @@
 ---
-title: Gigs
+title: Auftritte
 
 # Listing view
 view: compact

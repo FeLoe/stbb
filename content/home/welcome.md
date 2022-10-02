@@ -13,12 +13,14 @@ design:
   background:
     color: black
     image: band_bw.png
-    image_size: contain
+    image_size: cover
     image_position: center
     image_parallax: true
     text_color_light: true
+    image_darken: 0.4
   # Add custom styles
   css_class: d-flex fullscreen align-items-center
 ---
 
 Die **Steve Taylor Blues Band** ist eine Blues band im Rhein-Mosel Delta (Koblenz) seit 2013.
+{style="font-size: 1.2rem; -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}

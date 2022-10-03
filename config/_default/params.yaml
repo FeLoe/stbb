@@ -36,7 +36,7 @@ header:
     show_language: false
     show_day_night: true
     show_search: true
-    highlight_active_link: false
+    highlight_active_link: true
 
 # Site footer
 
@@ -68,10 +68,6 @@ features:
     enable: false
   privacy_pack:
     enable: false
-  repository:
-    url: "https://github.com/<username>/<repository>"
-    content_dir: content
-    branch: main
   avatar:
     gravatar: false
     shape: circle

@@ -1,6 +1,7 @@
 ---
 title: rhine-mosel-delta blues
-author: Martin
+image:
+  caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/xdX0nOHsrGc)"
 ---
 
 Der Rhine-Mosel-Delta Blues war unser erster eigener Blues.

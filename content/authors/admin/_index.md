@@ -19,7 +19,7 @@ social:
   - icon: music
     icon_pack: fas
     link: "https://www.youtube.com/channel/UCk6rVNilWbDpm1AE7QxmjmA/videos"
-  - icon: microphone-stand
+  - icon: microphone
     icon_pack: fas
     link: "/events"
 # Link to a PDF of your resume/CV from the About widget.

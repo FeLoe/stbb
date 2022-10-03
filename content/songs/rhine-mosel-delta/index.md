@@ -1,5 +1,5 @@
 ---
-title: rhine-mosel-delta blues
+title: Rhine-Mosel-Delta blues
 image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/xdX0nOHsrGc)"
 ---

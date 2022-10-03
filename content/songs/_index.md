@@ -2,9 +2,7 @@
 title: Songs
 
 # Listing view
-design:
-  view: list
-  columns: "2"
+view: list
 
 # Optional banner image (relative to `assets/media/` folder).
 banner:

@@ -8,10 +8,10 @@ author: Henrik
 superuser: false
 
 # Role/position
-role: Guitar
+role: Bass
 
 # Short bio (displayed in user profile at end of posts)
-bio: Unser Guitar Hero
+bio: Unser Bass Hero
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons

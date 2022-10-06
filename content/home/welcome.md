@@ -13,7 +13,7 @@ design:
   background:
     color: black
     image: band_bw.png
-    image_size: cover
+    image_size: contain
     image_position: center
     image_parallax: true
     text_color_light: true

@@ -17,3 +17,4 @@ Wir hatten unseren ersten Fernsehauftritt bei OK4 für Wiedbeatz!
 Toller Bericht der Bluesfreunde Neuwied in "Wiedbeatz" bei OK 4!
 Unser erster Fernsehauftritt! Einfach mal reinschauen...
 Danke an Jürgen Schneider und die übrige Crew!
+Hier könnt ihr euch das Video anschauen: [YouTube link](https://youtu.be/7Cm3XugJ0vA)

@@ -3,7 +3,11 @@ title: Fernsehauftritt bei Wiedbeatz
 date: 2020-05-25
 image:
   caption: "Image credit: [**Unsplash**](https://unsplash.com/photos/c-MbXDUchCw)"
-url: https://youtu.be/7Cm3XugJ0vA
+link:
+  icon_pack: fab
+  icon: youtube
+  name: Video
+  url: https://youtu.be/7Cm3XugJ0vA
 ---
 
 Wir hatten unseren ersten Fernsehauftritt bei OK4 für Wiedbeatz!

@@ -45,5 +45,3 @@ slides:
 #   Otherwise, set `projects = []`.
 projects:
 ---
-
-{{< gallery album="band" >}}

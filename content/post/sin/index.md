@@ -1,6 +1,6 @@
 ---
 title: SIN / Solidarität in der Not Benefizkonzert
-date: 2020-05-25
+date: "2022-11-04T"
 image:
   caption: "Image credit: Privat"
 ---

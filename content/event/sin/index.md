@@ -10,11 +10,11 @@ summary: Benefizkonzert für Solidarität in der Not
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-11-04T"
+date: 2022-11-04
 all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2022-11-04T"
+publishDate: 2022-10-31
 
 authors: []
 tags: []

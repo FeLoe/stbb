@@ -1,8 +1,8 @@
 ---
 # Display name
-title: Peter Taylor
+title: Pete Taylor
 
-author: Peter
+author: Pete
 
 # Is this the primary user of the site?
 superuser: false

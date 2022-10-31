@@ -1,8 +1,8 @@
 ---
 # Display name
-title: Henrik Taylor
+title: Henric Taylor
 
-author: Henrik
+author: Henric
 
 # Is this the primary user of the site?
 superuser: false

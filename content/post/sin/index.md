@@ -1,6 +1,6 @@
 ---
 title: SIN / Solidarität in der Not Benefizkonzert
-date: 2022-11-04
+date: 2022-10-31
 image:
   focal_point: "top"
   caption: "Image credit: Privat"

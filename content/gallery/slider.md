@@ -50,5 +50,5 @@ content:
         color: "#333"
         brightness: 0.5
         media: steve.jpg
-        fit:contain
+        fit: contain
 ---

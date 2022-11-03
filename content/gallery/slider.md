@@ -23,6 +23,13 @@ content:
         color: "#666"
         brightness: 0.7
         media: microphone.jpg
+    - title: Gitarren-Auswahl
+      content: Für jede Gelegenheit das passende Instrument
+      background:
+        position: right
+        color: "#666"
+        brightness: 0.7
+        media: guitars.jpg
     - title: Put something interesting here
       content: Work in progress
       align: left

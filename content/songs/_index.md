@@ -9,3 +9,5 @@ banner:
   caption: ""
   image: ""
 ---
+
+{{< audio src="green_onions.mp3" >}}

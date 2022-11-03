@@ -7,7 +7,7 @@ headless: true
 design:
   # Slide height is automatic unless you force a specific height (e.g. '400px')
   slide_height: ""
-  is_fullscreen: true
+  is_fullscreen: false
   # Automatically transition through slides?
   loop: false
   # Duration of transition between slides (in ms)
@@ -30,20 +30,20 @@ content:
         color: "#666"
         brightness: 0.7
         media: guitars.jpg
-    - title: Put something interesting here
-      content: Work in progress
+    - title: Sharp dressed man
+      content: ZZ Top Cover
       align: left
       background:
         position: center
         color: "#555"
         brightness: 0.7
-        media: band_bw.png
-    - title: To be filled
-      content: "Just opened last month!"
+        media: zztop.jpg
+    - title: Steve Taylor
+      content: Der Namensgeber unserer Band in Aktion
       align: right
       background:
         position: center
         color: "#333"
         brightness: 0.5
-        media: scheinwerfer.jpg
+        media: steve.jpg
 ---

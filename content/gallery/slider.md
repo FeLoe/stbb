@@ -20,7 +20,7 @@ content:
       align: left
       background:
         position: center
-        color: "#666"
+        color: "#333"
         brightness: 0.7
         media: microphone.jpg
         fit: contain
@@ -29,7 +29,7 @@ content:
       align: left
       background:
         position: center
-        color: "#666"
+        color: "#333"
         brightness: 0.7
         media: guitars.jpg
         fit: contain
@@ -38,7 +38,7 @@ content:
       align: left
       background:
         position: center
-        color: "#555"
+        color: "#333"
         brightness: 0.7
         media: zztop.jpg
         fit: contain

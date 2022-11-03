@@ -6,7 +6,7 @@ headless: true
 
 design:
   # Slide height is automatic unless you force a specific height (e.g. '400px')
-  slide_height: "400px"
+  slide_height: "800px"
   is_fullscreen: false
   # Automatically transition through slides?
   loop: false
@@ -19,20 +19,21 @@ content:
       content: Take a look at what we're working on...
       align: center
       background:
-        position: right
+        position: center
         color: "#666"
         brightness: 0.7
         media: microphone.jpg
     - title: Gitarren-Auswahl
       content: Für jede Gelegenheit das passende Instrument
+      align: center
       background:
-        position: right
+        position: center
         color: "#666"
         brightness: 0.7
         media: guitars.jpg
-    - title: Sharp dressed man
+    - title: Sharp dressed men
       content: ZZ Top Cover
-      align: left
+      align: center
       background:
         position: center
         color: "#555"
@@ -40,7 +41,7 @@ content:
         media: zztop.jpg
     - title: Steve Taylor
       content: Der Namensgeber unserer Band in Aktion
-      align: right
+      align: center
       background:
         position: center
         color: "#333"

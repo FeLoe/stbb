@@ -17,34 +17,38 @@ content:
   slides:
     - title: Giving some impressions
       content: Take a look at what we're working on...
-      align: center
+      align: left
       background:
         position: center
         color: "#666"
         brightness: 0.7
         media: microphone.jpg
+        fit: contain
     - title: Gitarren-Auswahl
       content: Für jede Gelegenheit das passende Instrument
-      align: center
+      align: left
       background:
         position: center
         color: "#666"
         brightness: 0.7
         media: guitars.jpg
+        fit: contain
     - title: Sharp dressed men
       content: ZZ Top Cover
-      align: center
+      align: left
       background:
         position: center
         color: "#555"
         brightness: 0.7
         media: zztop.jpg
+        fit: contain
     - title: Steve Taylor
       content: Der Namensgeber unserer Band in Aktion
-      align: center
+      align: left
       background:
         position: center
         color: "#333"
         brightness: 0.5
         media: steve.jpg
+        fit:contain
 ---

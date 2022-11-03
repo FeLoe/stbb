@@ -15,8 +15,8 @@ design:
 
 content:
   slides:
-    - title: Giving some impressions
-      content: Take a look at what we're working on...
+    - title: Einige Impressionen
+      content: STBB in Aktion
       align: left
       background:
         position: center
@@ -48,7 +48,7 @@ content:
       background:
         position: center
         color: "#333"
-        brightness: 0.5
+        brightness: 0.7
         media: steve.jpg
         fit: contain
 ---

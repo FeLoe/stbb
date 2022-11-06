@@ -158,4 +158,10 @@ content:
         brightness: 0.7
         media: ZZ_Top.jpg
         fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: Steves_Drumset.jpg
+        fit: contain
 ---

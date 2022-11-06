@@ -9,4 +9,4 @@ Benefizkonzert für den Hilfskonvoi Andernach in der Kulturfabrik Koblenz
 
 <!--more-->
 
-Hier noch weiterer Text
+Hier ist ein Video unseres Auftritts: {{< youtube ofaRmOTTX5o >}}

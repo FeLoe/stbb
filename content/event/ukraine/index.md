@@ -45,3 +45,5 @@ slides:
 #   Otherwise, set `projects = []`.
 projects:
 ---
+
+Hier ist ein Video der Veranstaltung: {{< youtube ofaRmOTTX5o >}}

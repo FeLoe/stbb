@@ -4,7 +4,7 @@
 #   The weight parameter defines the order that the links will appear in.
 
 main:
-  - name: News
+  - name: Presse
     url: post
     weight: 10
   - name: Über uns
@@ -13,7 +13,7 @@ main:
   - name: Events
     url: event
     weight: 30
-  - name: Gallerie
+  - name: Galerie
     url: gallery
     weight: 40
   - name: Songs

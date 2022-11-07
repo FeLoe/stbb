@@ -93,7 +93,7 @@ content:
         position: center
         color: "#333"
         brightness: 0.7
-        media: Harpomadding_in_Aktion_2.jpg
+        media: Harpomaddin_in_Aktion_2.jpg
         fit: contain
     - title: Maddin Taylor
       content: Unser Frontman schafft es stets mühelos, die Fans mitzureißen
@@ -126,7 +126,7 @@ content:
         position: center
         color: "#333"
         brightness: 0.7
-        media: Joe_mit_lapsteel.jpg
+        media: Joe_mit_Lapsteel.jpg
         fit: contain
     - background:
         position: center

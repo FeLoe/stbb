@@ -18,7 +18,7 @@ social:
     link: "mailto:schwaab@gmx.net"
   - icon: music
     icon_pack: fas
-    link: "https://www.youtube.com/channel/UCk6rVNilWbDpm1AE7QxmjmA/videos"
+    link: "https://www.youtube.com/@stevetaylorbluesband610/videos"
   - icon: microphone-lines
     icon_pack: fas
     link: "/event"

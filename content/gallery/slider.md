@@ -24,10 +24,7 @@ content:
         brightness: 0.7
         media: microphone.jpg
         fit: contain
-    - title: Gitarren-Auswahl
-      content: Für jede Gelegenheit das passende Instrument
-      align: left
-      background:
+    - background:
         position: center
         color: "#333"
         brightness: 0.7
@@ -50,5 +47,121 @@ content:
         color: "#333"
         brightness: 0.7
         media: steve.jpg
+        fit: contain
+    - content: Abschlussfoto mit begeisterten Konzertveranstaltern
+      align: left
+      background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: Abschlussbild_Ebernhahn.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: band_komplett_2.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: Band_komplett.jpg
+        fit: contain
+    - title: Eva Taylor
+      content: Special Guest beim Benefizkonzert in Ebernhahn
+      align: left
+      background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: Band_mit_Eva_Taylor.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: Eva_Taylor.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: Harmopaddin_in_Aktion.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: Harpomaddin_in_Aktion_2.jpg
+        fit: contain
+    - title: Maddin Taylor
+      content: Unser Frontman schafft es stets mühelos, die Fans mitzureißen
+      align: left
+      background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: Harpomaddin_mit_Fan_In.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: Harpomaddin_und_Joe.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: Henrik_mit_Pete.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: Joe_B_Gibbons.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: Joe_mit_Lapsteel.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: Vier_Fans_Innen.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: ZZ_Top_3.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: ZZ_Top_4.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: ZZ_Top_mit_Eva.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: ZZ_Top.jpg
+        fit: contain
+    - background:
+        position: center
+        color: "#333"
+        brightness: 0.7
+        media: Steves_Drumset.jpg
         fit: contain
 ---

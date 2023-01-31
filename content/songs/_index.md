@@ -22,3 +22,9 @@ Another brick in the wall:
 {{< audio src="another_brick.mp3" >}}
 Stormy monday blues:
 {{< audio src="stormy_monday.mp3" >}}
+Heroes:
+{{< audio src="heroes.mp3" >}}
+Sharp dressed men:
+{{< audio src="sharp_dressed_men.mp3" >}}
+The thrill is gone:
+{{< audio src="the_thrill_is_gone.mp3" >}}

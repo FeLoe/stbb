@@ -1,13 +1,10 @@
 ---
-title: SIN / Solidarität in der Not Benefizkonzert
-date: 2022-10-31
+title: Rhein-Zeitung berichtet über ein von der Steve-Taylor-Blues-Band unterstütztes Projekt in Nepal
+date: 2023-04-08
 image:
   focal_point: "top"
-  caption: "Image credit: Privat"
+  caption: "Image credit: https://unsplash.com/photos/cenlDgUeuW8"
 ---
 
-Gemeinsam mit der Steve Taylor Blues Band richtet die Hilforganisation SIN Solidarität in der Not e.V. am 4. November ein Benefizkonzert in der Rosenheckhalle in Ebernhahn aus. Ab 19 Uhr geht es los. Der Eintritt beträgt nur zwei Euro; Spenden sind willkommen. Der Reinerlös soll der Arbeit von SIN zugute kommen. Getreu dem Slogan „Wir sind für euch da!“ leistete der Verein bereits große Hilfe nach der Ahrtalkatastrophe im Sommer 2021 und versorgt seit Beginn des Krieges in der Ukraine im Februar 2022 Menschen mit Sachspenden und Lebensmitteln. Vor allem für die Beschaffung von Lebensmitteln werden Geldspenden gebraucht. Informationen zur Arbeit des Vereins gibt es unter [www.sinww.de](https://www.sinww.de).
-
-Geplant sind am Konzertabend auch Auftritte von Special Guests. Unter anderem wird Eva Taylor (Berger/Kern) aus Sessenhausen mit von der Partie sein. Vielen ist sie sicherlich noch als Sängerin der erfolgreichen Westerwälder Coverband Bosskopp in guter Erinnerung. „Wir freuen uns riesig, dass wir dabei sein dürfen und die grandiose Arbeit von SIN auf diese Weise unterstützen können“, erklärt Jürgen Opgenoorth, Gitarrist der Steve Taylor Blues Band und betont weiter: „Nach bereits bei zwei erfolgreichen Benefizkonzerten in der Kufa Koblenz und an der Mosel sind wir auch diesmal sicher, dass wir mit Hilfe des Publikums die Bühne für eine gute Sache rocken können!“
-
-UPDATE: Das Konzert war ein voller Erfolg! Hier sind einige Presseberichte von [Blick Aktuell](https://www.blick-aktuell.de/Berichte/STBB-in-der-Rosenheckhalle-528756.html#Comments) und dem [Westerwälder Kurier](https://www.ww-kurier.de/artikel/122982-benefizkonzert-mit-der--steve-taylor-blues-band---sin-holte-musik-nach-ebernhahn).
+Ganz aktuell berichtete die [Rhein-Zeitung Koblenz](https://www.rhein-zeitung.de/region/aus-den-lokalredaktionen/koblenz-und-region_artikel,-nach-tod-von-bekanntem-canyonsportmanager-witwe-eroeffnet-in-seinem-namen-schule-in-nepal-_arid,2522255.html) über ein Projekt von Nina Keul, die gerade von einer Reise nach Nepal zurückgekehrt ist. Nina Keul hatte nach einer gemeinsamen Reise mit ihrem leider 2019 verstorbenen Ehemann Stefan beschlossen, eine Schule in Nepal zu unterstützen. Diese Schule konnte nun von ihr mit eingeweiht werden.
+Bei unserem Benefiz-Konzert im September 2022 im Weinhaus Schwaab hatten unsere Fans über 800 Euro gespendet, die wir Nina für ihr Projekt weitergegeben haben.

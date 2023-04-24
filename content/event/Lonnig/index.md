@@ -1,16 +1,16 @@
 ---
-title: Deichstadtfest Neuwied
+title: Kultur Open Air in Lonnig
 
-event: Deichstadtfest Neuwied
-event_url: https://www.neuwied.de/freizeit-kultur-tourismus/veranstaltungen/deichstadtfest
+event: Kultur Open Air in Lonnig
+event_url: https://www.dorfverein-lonnig.de
 
-location: Neuwied
+location: Lonnig
 
-summary: Wir freuen uns, in diesem Jahr am Sonntag, 9. Juli ab 15 Uhr dabei sein zu dürfen beim Neuwieder Deichstadtfest!
+summary: Diese Konzertreihe, die seit 2020 besteht, hat einen ganz besonderen Charme und zieht mittlerweile das Publikum aus der Region in das Herz des idyllischen Ortes im Maifeld.
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2023-07-09T15:00:00Z"
+date: "2023-08-04T19:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT talk date).
@@ -20,10 +20,10 @@ authors: []
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: false
+featured: true
 
 image:
-  caption: "Image credit: https://unsplash.com/photos/hzgs56Ze49s"
+  caption: "Image credit: https://unsplash.com/photos/ekHSHvgr27k"
   focal_point: Right
 
 url_code: ""
@@ -46,4 +46,4 @@ slides:
 projects:
 ---
 
-Musikalische Vielfalt, kulinarische Genüsse – und das alles quasi gratis: Während des Deichstadtfests verwandelt sich der Neuwieder Luisenplatz in eine bunte Festmeile, in einen seit Jahrzehnten beliebten Treffpunkt für Jung und Alt, für die Neuwieder „Schärjer“ und ihre Gäste aus der ganzen Region. Wir freuen uns, in diesem Jahr am Sonntag, 9. Juli ab 15 Uhr dabei sein zu dürfen.
+Am Freitag, 4. August gastiert die STEVE TAYLOR BLUES BAND beim „Kultur Open Air in Lonnig“ ab 19 Uhr. Diese Konzertreihe, die seit 2020 besteht, hat einen ganz besonderen Charme und zieht mittlerweile das Publikum aus der Region in das Herz des idyllischen Ortes im Maifeld. Also beste Voraussetzungen für die Taylors einen unvergesslichen, bluesigen Auftritt zu kreieren.

@@ -1,12 +1,12 @@
 ---
-title: Deichstradtfest Neuwied
+title: Deichstadtfest Neuwied
 
 event: Deichstadtfest Neuwied
 event_url: https://www.neuwied.de/freizeit-kultur-tourismus/veranstaltungen/deichstadtfest
 
 location: Neuwied
 
-summary: "Musikalische Vielfalt, kulinarische Genüsse – und das alles quasi gratis: Während des Deichstadtfests verwandelt sich der Neuwieder Luisenplatz in eine bunte Festmeile, in einen seit Jahrzehnten beliebten Treffpunkt für Jung und Alt, für die Neuwieder „Schärjer“ und ihre Gäste aus der ganzen Region. Wir freuen uns, in diesem Jahr am Sonntag, 9. Juli ab 15 Uhr dabei sein zu dürfen."
+summary: Wir freuen uns, in diesem Jahr am Sonntag, 9. Juli ab 15 Uhr dabei sein zu dürfen beim Neuwieder Deichstadtfest!
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -46,4 +46,4 @@ slides:
 projects:
 ---
 
-Hier ist ein Video der Veranstaltung: {{< youtube ofaRmOTTX5o >}}
+Musikalische Vielfalt, kulinarische Genüsse – und das alles quasi gratis: Während des Deichstadtfests verwandelt sich der Neuwieder Luisenplatz in eine bunte Festmeile, in einen seit Jahrzehnten beliebten Treffpunkt für Jung und Alt, für die Neuwieder „Schärjer“ und ihre Gäste aus der ganzen Region. Wir freuen uns, in diesem Jahr am Sonntag, 9. Juli ab 15 Uhr dabei sein zu dürfen.

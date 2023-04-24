@@ -23,7 +23,7 @@ tags: []
 featured: false
 
 image:
-  caption: "Image credit: Photo by <a href="https://unsplash.com/@anthonydelanoix?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Anthony DELANOIX</a> on <a href="https://unsplash.com/photos/hzgs56Ze49s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>"
+  caption: "Image credit: https://unsplash.com/photos/hzgs56Ze49s"
   focal_point: Right
 
 url_code: ""

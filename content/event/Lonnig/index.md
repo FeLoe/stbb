@@ -10,7 +10,7 @@ summary: Diese Konzertreihe, die seit 2020 besteht, hat einen ganz besonderen Ch
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2023-08-04T19:00:00Z"
+date: "2023-08-05T19:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT talk date).
@@ -46,4 +46,4 @@ slides:
 projects:
 ---
 
-Am Freitag, 4. August gastiert die STEVE TAYLOR BLUES BAND beim „Kultur Open Air in Lonnig“ ab 19 Uhr. Diese Konzertreihe, die seit 2020 besteht, hat einen ganz besonderen Charme und zieht mittlerweile das Publikum aus der Region in das Herz des idyllischen Ortes im Maifeld. Also beste Voraussetzungen für die Taylors einen unvergesslichen, bluesigen Auftritt zu kreieren.
+Am Samstag, 5. August gastiert die STEVE TAYLOR BLUES BAND beim „Kultur Open Air in Lonnig“ ab 19 Uhr. Diese Konzertreihe, die seit 2020 besteht, hat einen ganz besonderen Charme und zieht mittlerweile das Publikum aus der Region in das Herz des idyllischen Ortes im Maifeld. Also beste Voraussetzungen für die Taylors einen unvergesslichen, bluesigen Auftritt zu kreieren.

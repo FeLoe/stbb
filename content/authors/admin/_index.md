@@ -15,7 +15,7 @@ bio: Wir sind eine Blues Band aus dem Rhein-Mosel Delta (Koblenz).
 social:
   - icon: envelope
     icon_pack: fas
-    link: "mailto:schwaab@gmx.net"
+    link: "mailto:mail@stbb.me"
   - icon: music
     icon_pack: fas
     link: "https://www.youtube.com/@stevetaylorbluesband610/videos"

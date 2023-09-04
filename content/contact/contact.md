@@ -15,7 +15,7 @@ subtitle:
 content:
   # Contact (edit or remove options as required)
 
-  email: schwaab@gmx.net
+  email: mail@stbb.me
   #contact_links:
   #  - icon: comments
   #    icon_pack: fas

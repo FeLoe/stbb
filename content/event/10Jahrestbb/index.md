@@ -2,7 +2,6 @@
 title: „10 Jahre Steve Taylor Blues Band“ Kulturfabrik Koblenz
 
 event: 10 Jahre STBB
-event_url: https://www.blick-aktuell.de/Nachrichten/Blues-for-Ukraine-506556.html
 
 location: KUFA Koblenz
 

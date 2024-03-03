@@ -11,7 +11,7 @@ date: "2024-08-31T"
 all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2024-03-02T00:00:00Z"
+publishDate: "2024-08-31T00:00:00Z"
 
 authors: []
 tags: []

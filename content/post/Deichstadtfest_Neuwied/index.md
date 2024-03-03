@@ -1,6 +1,6 @@
 ---
 title: STBB beim Deichstadtfest Neuwied 2024
-date: 2024-03-02
+date: 2024-07-13
 image:
   focal_point: "top"
   caption: "Image credit: https://unsplash.com/photos/people-walking-on-street-during-daytime-9xsXiWvjnLQ"

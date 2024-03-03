@@ -3,11 +3,11 @@ title: Privatfeier
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2017-10-20T"
+date: "2018-11-30T"
 all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2017-10-20T00:00:00Z"
+publishDate: "2018-11-30T00:00:00Z"
 
 authors: []
 tags: []

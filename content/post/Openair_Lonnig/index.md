@@ -6,4 +6,4 @@ image:
   caption: "Image credit: https://unsplash.com/photos/grey-and-black-pa-speakers-near-electric-guitar-and-drum-1t0yY9lSpyE?"
 ---
 
-Wir sind am 6. September beim Kultur Open Air in Lonnig! Weitere Infos folgen
+Wir sind am 31. August beim Kultur Open Air in Lonnig! Weitere Infos folgen

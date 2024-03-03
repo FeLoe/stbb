@@ -8,7 +8,7 @@ title: News
 subtitle:
 
 content:
-  count: 5
+  count: 3
   filters:
     author: ""
     category: ""

@@ -5,7 +5,7 @@ event: Benefizkonzert in Osterspai
 
 location: Osterspai
 
-
+summary: 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
 date: "2019-10-19T"

@@ -7,11 +7,11 @@ location: Lonnig
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2024-08-31T"
+date: "2024-08-30T"
 all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2024-08-31T00:00:00Z"
+publishDate: "2024-08-30T00:00:00Z"
 
 authors: []
 tags: []

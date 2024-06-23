@@ -4,7 +4,7 @@ title: STBB beim Deichstadtfest Neuwied 2024
 event: Deichstadtfest Neuwied
 event_url: https://www.neuwied.de/deichstadtfest
 
-location: Neuwied
+location: Neuwied Europadorf
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.

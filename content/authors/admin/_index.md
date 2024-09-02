@@ -10,7 +10,7 @@ bio: Wir sind eine Blues Band aus dem Rhein-Mosel Delta (Koblenz).
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   For an e link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
   - icon: microphone-lines
@@ -21,7 +21,10 @@ social:
     link: "https://www.youtube.com/@stevetaylorbluesband610/videos"
   - icon: envelope
     icon_pack: fas
-    link: "mailto:mail@stbb.me"
+    link: "mailto:joeopgenoorth@gmail.com"
+  - icon: arrow-down
+    icon_pack: fas
+    link: "/#news"
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv

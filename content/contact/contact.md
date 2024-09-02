@@ -15,7 +15,7 @@ subtitle:
 content:
   # Contact (edit or remove options as required)
 
-  email: mail@stbb.me
+  email: joeopgenoorth@gmail.com
   #contact_links:
   #  - icon: comments
   #    icon_pack: fas

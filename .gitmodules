@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-w3css-basic"]
+  path = themes/hugo-theme-w3css-basic
+  url  = https://github.com/jpescador/hugo-theme-w3css-basic.git

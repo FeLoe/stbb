@@ -1,6 +1,7 @@
 [build]
   command = "hugo --gc --minify -b $URL"
   publish = "public"
+  git_submodule_strategy = "none"
 
 [build.environment]
   HUGO_VERSION = "0.97.3"

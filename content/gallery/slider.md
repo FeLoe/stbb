@@ -19,18 +19,6 @@ content:
         position: center
         color: "#333"
         brightness: 0.7
-        media: video1.mp4
-        fit: contain
-    - background:
-        position: center
-        color: "#333"
-        brightness: 0.7
-        media: video2.mp4
-        fit: contain
-    - background:
-        position: center
-        color: "#333"
-        brightness: 0.7
         media: Gastsaengerin.jpeg
         fit: contain
     - background:

@@ -72,3 +72,7 @@ security:
 sitemap:
   _merge: deep
 buildFuture: true
+params:
+  marquee:
+    enable: true
+    file: .marquee.md

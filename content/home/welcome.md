@@ -9,7 +9,7 @@ weight: 10 # Order that this section will appear.
 author: admin
 design:
   # Choose how many columns the section has. Valid values: 1 or 2.
-  columns: "1"
+  columns: "2"
   background:
     color: black
     image: band_bw.png
@@ -20,4 +20,7 @@ design:
     image_darken: 0.7
   # Add custom styles
   css_class: d-flex fullscreen align-items-center
+  spacing:
+    # Customize the section spacing. Order is top, right, bottom, left.
+  padding: ["20px", "0", "20px", "0"]
 ---

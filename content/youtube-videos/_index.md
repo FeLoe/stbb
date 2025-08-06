@@ -13,3 +13,9 @@ type: page
 ## Kufa 2024
 
 {{< youtube "gbnFpydIyPQ" >}}
+
+---
+
+## Deichstadtfest Neuwied 2024
+
+{{< youtube "L7saOSaPeou1oxh" >}}

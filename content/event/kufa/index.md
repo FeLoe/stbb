@@ -12,7 +12,7 @@ date: "2026-03-12T"
 all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2026-01-15T00:00:00Z"
+publishDate: "2026-03-12T00:00:00Z"
 
 authors: []
 tags: []

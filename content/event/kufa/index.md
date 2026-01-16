@@ -1,18 +1,18 @@
 ---
 title: Kulturfabrik / Koblenz
 
-event: Auftritt in der Kulturfabrik
-event_url: https://www.kufa-koblenz.de
+event: Auftritt in der Kulturfabrik Bluessession
+event_url: https://www.kufa-koblenz.de/bluessession/
 
 location: KUFA Koblenz
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2020-11-12T"
+date: "2026-03-12T"
 all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: "2020-11-12T00:00:00Z"
+publishDate: "2026-01-15T00:00:00Z"
 
 authors: []
 tags: []

@@ -12,7 +12,7 @@ design:
   columns: "2"
   background:
     color: black
-    image: band_bw.png
+    image: stbb_group.jpg
     image_size: contain
     image_position: center
     image_parallax: true

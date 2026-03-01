@@ -9,14 +9,19 @@
 <body>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   <script>
-    new MutationObserver(function() {
-      document.querySelectorAll('button').forEach(function(btn) {
-        var t = btn.textContent.trim();
-        if (t.startsWith('Neue(r/s) ')) {
-          btn.textContent = t.replace('Neue(r/s) ', '') + ' hinzufügen';
+    function fixRSText() {
+      document.querySelectorAll('button, h1, h2, h3, h4, span, a').forEach(function(el) {
+        if (el.children.length > 0) return;
+        var t = el.textContent;
+        if (t.indexOf('(r/s)') === -1) return;
+        if (el.tagName === 'BUTTON' && t.startsWith('Neue(r/s) ')) {
+          el.textContent = t.replace('Neue(r/s) ', '') + ' hinzufügen';
+        } else {
+          el.textContent = t.replace(/\(r\/s\)/g, '');
         }
       });
-    }).observe(document.body, { childList: true, subtree: true });
+    }
+    new MutationObserver(fixRSText).observe(document.body, { childList: true, subtree: true });
   </script>
 </body>
 </html>

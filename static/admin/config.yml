@@ -54,6 +54,45 @@ collections:
           config:
             multiple: false
 
+  - name: posts
+    label: Presse & News
+    label_singular: Artikel
+    description: "Hier kannst du Neuigkeiten und Presseberichte veröffentlichen. Titel, Datum und Text sind Pflichtfelder – alles andere ist optional. Nach dem Speichern ist der Artikel nach ein paar Minuten live."
+    folder: content/post
+    create: true
+    path: "{{slug}}/index"
+    identifier_field: title
+    sortable_fields: ["date", "title"]
+    fields:
+      - label: "Titel"
+        name: title
+        widget: string
+        hint: "z.B. STBB beim Deichstadtfest Neuwied"
+      - label: "Datum"
+        name: date
+        widget: datetime
+        date_format: "DD.MM.YYYY"
+        time_format: false
+        format: "YYYY-MM-DDT00:00:00Z"
+        hint: "Datum der Meldung."
+      - label: "Text"
+        name: body
+        widget: markdown
+        hint: "Hier den vollständigen Artikel schreiben. Für einen Link: Text markieren und auf das Link-Symbol in der Werkzeugleiste klicken."
+      - label: "Foto (optional)"
+        name: image
+        widget: image
+        required: false
+        hint: "Titelbild des Artikels. Wird oben auf der Artikelseite angezeigt."
+        media_library:
+          config:
+            multiple: false
+      - label: "Kurzbeschreibung (optional)"
+        name: summary
+        widget: text
+        required: false
+        hint: "Kurzer Teaser-Text für die Übersichtsseite. Wenn leer, wird automatisch der Anfang des Textes verwendet."
+
   - name: gallery
     label: Galerie
     label_singular: Foto

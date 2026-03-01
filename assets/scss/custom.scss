@@ -464,6 +464,71 @@ nav {
 }
 
 /* =========================================
+   Post (Presse & News) single page
+   ========================================= */
+
+.stbb-post-single {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.stbb-post-single-header {
+  margin-bottom: 1.5rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.stbb-post-single-date {
+  display: block;
+  font-size: 0.9rem;
+  color: #c8922a;
+  font-weight: 600;
+}
+
+.stbb-post-single-image {
+  margin-bottom: 1.75rem;
+  border-radius: 6px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+.stbb-post-single-body {
+  font-size: 1rem;
+  line-height: 1.75;
+
+  p { margin-bottom: 1.2rem; }
+  a { color: #c8922a; }
+}
+
+.stbb-post-single-link {
+  margin-top: 1.5rem;
+
+  a {
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    background: #c8922a;
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+
+    &:hover { background: #e8a83a; }
+  }
+}
+
+/* =========================================
    Event single page
    ========================================= */
 

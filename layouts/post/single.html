@@ -1,0 +1,34 @@
+{{- define "main" -}}
+
+<article class="stbb-post-single">
+
+  <header class="stbb-post-single-header">
+    <h1>{{ .Title }}</h1>
+    <time class="stbb-post-single-date" datetime="{{ .Date.Format "2006-01-02" }}">
+      {{ .Date | time.Format "2. January 2006" }}
+    </time>
+  </header>
+
+  {{ with .Params.image }}
+  {{ $img := resources.Get (printf "media/%s" (path.Base .)) | default (resources.Get .) }}
+  {{ if $img }}
+  {{ $img = $img.Resize "900x webp" }}
+  <div class="stbb-post-single-image">
+    <img src="{{ $img.RelPermalink }}" alt="{{ $.Title }}">
+  </div>
+  {{ end }}
+  {{ end }}
+
+  {{ with .Content }}
+  <div class="stbb-post-single-body">{{ . }}</div>
+  {{ end }}
+
+  {{ with .Params.url }}
+  <div class="stbb-post-single-link">
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer">Zum Artikel ↗</a>
+  </div>
+  {{ end }}
+
+</article>
+
+{{- end -}}

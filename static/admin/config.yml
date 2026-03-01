@@ -87,6 +87,11 @@ collections:
         media_library:
           config:
             multiple: false
+      - label: "Link (optional)"
+        name: url
+        widget: string
+        required: false
+        hint: "Link zu einem externen Artikel, z.B. einem Zeitungsbericht. Wird als Button auf der Seite angezeigt."
       - label: "Kurzbeschreibung (optional)"
         name: summary
         widget: text

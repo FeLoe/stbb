@@ -40,6 +40,11 @@ collections:
         format: "YYYY-MM-DDTHH:mm:00Z"
         default: ""
         hint: "Wann soll der Termin auf der Webseite erscheinen? Normalerweise gleich wie das Konzertdatum."
+      - label: "Beschreibung (optional)"
+        name: body
+        widget: markdown
+        required: false
+        hint: "Freitext zum Konzert, z.B. Infos zur Veranstaltung oder ein kurzer Rückblick."
       - label: "Website / Link (optional)"
         name: external_url
         widget: string

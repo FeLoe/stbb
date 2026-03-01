@@ -9,14 +9,18 @@
     </time>
   </header>
 
+  {{ $img := false }}
   {{ if and .Params.image (not (reflect.IsMap .Params.image)) }}
-  {{ $img := resources.Get .Params.image }}
+    {{ $img = resources.Get .Params.image }}
+  {{ end }}
+  {{ if not $img }}
+    {{ $img = .Resources.GetMatch "featured.*" }}
+  {{ end }}
   {{ if $img }}
   {{ $img = $img.Resize "900x webp" }}
   <div class="stbb-post-single-image">
     <img src="{{ $img.RelPermalink }}" alt="{{ $.Title }}">
   </div>
-  {{ end }}
   {{ end }}
 
   {{ with .Content }}

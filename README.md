@@ -25,9 +25,12 @@ Content is managed via the CMS or directly in these directories:
 | `content/event/` | Concert dates (leaf bundles) |
 | `content/post/` | News and press articles |
 | `content/gallery/` | Gallery photos |
-| `content/songs/` | Songs page |
+| `content/songs/` | Songs page with audio players |
+| `content/people/` | Über uns / band bio page |
+| `content/youtube-videos/` | Videos page (embedded YouTube) |
+| `content/contact/` | Contact form (Netlify Forms) |
 | `assets/media/` | Images uploaded via CMS |
-| `static/files/` | MP3 files |
+| `static/files/` | MP3 files and stage rider PDF |
 
 ## Key configuration
 

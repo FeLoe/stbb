@@ -1,0 +1,3 @@
+{{/* Process custom SCSS and inject into head */}}
+{{ $scss := resources.Get "scss/custom.scss" | css.Sass | resources.Minify | resources.Fingerprint "sha512" }}
+<link rel="stylesheet" href="{{ $scss.Permalink }}" integrity="{{ $scss.Data.Integrity }}">

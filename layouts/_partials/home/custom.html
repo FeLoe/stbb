@@ -1,0 +1,18 @@
+{{/* Custom home page: hero image + upcoming events */}}
+
+{{/* Hero / fullscreen banner */}}
+<section class="stbb-hero">
+  {{ $img := resources.Get "media/main_page.jpeg" }}
+  {{ if $img }}
+    {{ $img = $img.Resize "1600x webp" }}
+    <img src="{{ $img.RelPermalink }}" alt="Steve Taylor Blues Band" class="stbb-hero-img">
+  {{ end }}
+</section>
+
+{{/* Upcoming events */}}
+<section class="stbb-upcoming">
+  <div class="stbb-upcoming-inner">
+    <h2 class="stbb-upcoming-title">Nächste Auftritte</h2>
+    {{ partial "home/upcoming-events.html" . }}
+  </div>
+</section>

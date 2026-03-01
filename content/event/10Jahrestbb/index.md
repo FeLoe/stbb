@@ -7,7 +7,7 @@ location: KUFA Koblenz
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2024-09-06T"
+date: "2024-09-06T19:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT talk date).

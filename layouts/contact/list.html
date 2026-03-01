@@ -1,0 +1,39 @@
+{{- define "main" -}}
+
+<div class="stbb-contact-wrapper">
+  <header class="stbb-section-header" style="padding-left:0; padding-right:0;">
+    <h1>Kontakt</h1>
+    <p class="stbb-section-intro">Ihr habt Interesse an einem Auftritt oder möchtet mehr über uns erfahren? Schreibt uns gerne.</p>
+  </header>
+
+  <p>E-Mail: <a href="mailto:joeopgenoorth@gmail.com">joeopgenoorth@gmail.com</a></p>
+
+  <form name="kontakt" method="POST" netlify data-netlify="true" netlify-honeypot="bot-field" class="stbb-contact-form">
+    <input type="hidden" name="form-name" value="kontakt">
+    <p style="display:none;"><label>Bot-Feld: <input name="bot-field"></label></p>
+
+    <label>
+      Name
+      <input type="text" name="name" required>
+    </label>
+
+    <label>
+      E-Mail
+      <input type="email" name="email" required>
+    </label>
+
+    <label>
+      Betreff
+      <input type="text" name="subject">
+    </label>
+
+    <label>
+      Nachricht
+      <textarea name="message" required></textarea>
+    </label>
+
+    <button type="submit">Absenden</button>
+  </form>
+</div>
+
+{{- end -}}

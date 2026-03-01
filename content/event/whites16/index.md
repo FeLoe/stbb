@@ -7,7 +7,7 @@ location: White's Koblenz (inzwischen geschlossen)
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2016-06-18T"
+date: "2016-06-18T19:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT talk date).

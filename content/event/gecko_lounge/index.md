@@ -8,7 +8,7 @@ location: Gecko Lounge Koblenz
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2017-03-16T"
+date: "2017-03-16T19:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT talk date).

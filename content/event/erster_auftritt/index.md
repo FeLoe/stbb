@@ -10,7 +10,7 @@ summary: Unser erster Auftritt als Band
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2014-11-01T"
+date: "2014-11-01T19:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT talk date).

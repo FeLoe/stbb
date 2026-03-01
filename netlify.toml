@@ -4,7 +4,8 @@
   git_submodule_strategy = "none"
 
 [build.environment]
-  HUGO_VERSION = "0.97.3"
+  HUGO_VERSION = "0.157.0"
+  HUGO_EXTENDED = "true"
   HUGO_ENABLEGITINFO = "true"
 
 [context.production.environment]
@@ -15,8 +16,3 @@
 
 [context.branch-deploy]
   command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
-
-[[plugins]]
-  package = "netlify-plugin-hugo-cache-resources"
-  [plugins.inputs]
-    debug = true

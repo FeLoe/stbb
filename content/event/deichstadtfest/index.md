@@ -8,7 +8,7 @@ location: Neuwied Europadorf
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2024-07-13T"
+date: "2024-07-13T19:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT talk date).

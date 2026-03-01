@@ -9,7 +9,7 @@ summary: Unser erstes Set in externer Location
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2015-06-12T"
+date: "2015-06-12T19:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT talk date).

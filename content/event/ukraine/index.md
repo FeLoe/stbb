@@ -10,7 +10,7 @@ summary: Benefizkonzert für den Hilfskonvoi Andernach
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2022-05-19T"
+date: "2022-05-19T19:00:00Z"
 all_day: true
 
 # Schedule page publish date (NOT talk date).

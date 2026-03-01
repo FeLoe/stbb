@@ -1,11 +1,8 @@
 {{/* Upcoming Events — home page partial (Congo context) */}}
-{{ $items_count := 5 }}
-
 {{/* Query upcoming events, sorted ascending */}}
 {{ $query := where site.RegularPages "Type" "event" }}
 {{ $query = where $query "Date" ">=" now }}
 {{ $query = sort $query "Date" "asc" }}
-{{ $query = first $items_count $query }}
 
 {{/* German month abbreviations */}}
 {{ $months_de := slice "" "Jan" "Feb" "Mrz" "Apr" "Mai" "Jun" "Jul" "Aug" "Sep" "Okt" "Nov" "Dez" }}

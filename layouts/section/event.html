@@ -25,7 +25,7 @@
   {{/* Event groups, only the first (newest) year visible by default */}}
   {{ range $i, $group := $groups }}
   <div class="event-year-group" id="year-{{ $group.Key }}"{{ if ne $i 0 }} style="display:none;"{{ end }}>
-    {{ range $group.Pages }}
+    {{ range $group.Pages.ByDate }}
       {{ partial "event-card.html" . }}
     {{ end }}
   </div>

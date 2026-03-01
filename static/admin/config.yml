@@ -120,3 +120,9 @@ collections:
         required: false
         default: ""
         hint: "Kurze Beschriftung, z.B. 'Kulturfabrik Koblenz, September 2024'. Wird unter dem Foto angezeigt."
+      - label: "Reihenfolge (optional)"
+        name: weight
+        widget: number
+        value_type: int
+        required: false
+        hint: "Position in der Galerie – niedrigere Zahl erscheint weiter vorne. Leer lassen, damit das Foto ans Ende gestellt wird."

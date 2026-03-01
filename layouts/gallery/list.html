@@ -5,7 +5,7 @@
 </header>
 
 <div class="stbb-gallery-wrapper">
-  {{ range .RegularPages }}
+  {{ range .RegularPages.ByWeight }}
   {{ $imgPath := .Params.image }}
   {{ $img := resources.Get $imgPath }}
   {{ if $img }}

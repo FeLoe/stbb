@@ -1,9 +1,6 @@
 ---
 title: SIN / Solidarität in der Not Benefizkonzert
 date: 2022-10-31
-image:
-  focal_point: "top"
-  caption: "Image credit: Privat"
 ---
 
 Gemeinsam mit der Steve Taylor Blues Band richtet die Hilforganisation SIN Solidarität in der Not e.V. am 4. November ein Benefizkonzert in der Rosenheckhalle in Ebernhahn aus. Ab 19 Uhr geht es los. Der Eintritt beträgt nur zwei Euro; Spenden sind willkommen. Der Reinerlös soll der Arbeit von SIN zugute kommen. Getreu dem Slogan „Wir sind für euch da!“ leistete der Verein bereits große Hilfe nach der Ahrtalkatastrophe im Sommer 2021 und versorgt seit Beginn des Krieges in der Ukraine im Februar 2022 Menschen mit Sachspenden und Lebensmitteln. Vor allem für die Beschaffung von Lebensmitteln werden Geldspenden gebraucht. Informationen zur Arbeit des Vereins gibt es unter [www.sinww.de](https://www.sinww.de).

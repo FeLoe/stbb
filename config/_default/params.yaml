@@ -1,6 +1,6 @@
 colorScheme: slate
 defaultAppearance: dark
-autoSwitchAppearance: false
+autoSwitchAppearance: true
 
 mainSections:
   - post
@@ -13,16 +13,17 @@ homepage:
 
 header:
   layout: basic
+  logo: "media/logo.png"
+  showTitle: false
 
 navigation:
-  showLogo: false
-  showTitle: true
   showSearch: true
 
 footer:
   showCopyright: true
   showThemeAttribution: false
   showScrollToTop: true
+  showAppearanceSwitcher: false
 
 article:
   showDate: true

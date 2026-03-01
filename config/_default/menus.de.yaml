@@ -20,3 +20,16 @@ main:
   - name: Kontakt
     url: /contact/
     weight: 70
+  - name: ""
+    weight: 80
+    params:
+      action: appearance
+      showName: false
+
+footer:
+  - name: Impressum
+    url: /privacy/
+    weight: 10
+  - name: Datenschutz
+    url: /terms/
+    weight: 20

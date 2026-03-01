@@ -1,9 +1,21 @@
 /* =========================================
-   Global: primary colour override (Mr Robot cyan on Congo slate base)
+   Global: fonts + primary colour
    ========================================= */
 
 :root {
   --color-primary: 0 136 204;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.stbb-upcoming-title,
+.stbb-section-header h1,
+nav {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.03em;
 }
 
 /* =========================================
@@ -35,7 +47,11 @@
 
 .stbb-upcoming {
   padding: 3rem 1rem;
-  background: #1d2127;
+  background: #f3f4f6;
+
+  html.dark & {
+    background: #1d2127;
+  }
 }
 
 .stbb-upcoming-inner {
@@ -48,7 +64,11 @@
   font-weight: 700;
   margin-bottom: 1.5rem;
   text-align: center;
-  color: #fff;
+  color: #111;
+
+  html.dark & {
+    color: #fff;
+  }
 }
 
 .upcoming-events-list {
@@ -62,16 +82,24 @@
   align-items: center;
   gap: 1.25rem;
   padding: 1rem 1.25rem;
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(0, 0, 0, 0.04);
   border-left: 3px solid #c8922a;
   border-radius: 4px;
   text-decoration: none !important;
   color: inherit !important;
   transition: background 0.2s, border-color 0.2s;
 
+  html.dark & {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
   &:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.09);
     border-left-color: #e8a83a;
+
+    html.dark & {
+      background: rgba(255, 255, 255, 0.1);
+    }
   }
 }
 
@@ -93,8 +121,12 @@
     font-size: 0.68rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: #bbb;
+    color: #666;
     margin-top: 2px;
+
+    html.dark & {
+      color: #bbb;
+    }
   }
 
   .edb-year {
@@ -113,18 +145,26 @@
   .event-name {
     font-size: 1.05rem;
     font-weight: 600;
-    color: #fff;
+    color: inherit;
   }
 
   .event-location {
     font-size: 0.82rem;
-    color: #aaa;
+    color: #666;
+
+    html.dark & {
+      color: #aaa;
+    }
   }
 }
 
 .event-arrow {
-  color: #555;
+  color: #999;
   font-size: 1.2rem;
+
+  html.dark & {
+    color: #555;
+  }
 }
 
 .stbb-see-all {
@@ -146,7 +186,11 @@
 
 .stbb-no-events {
   text-align: center;
-  color: #aaa;
+  color: #666;
+
+  html.dark & {
+    color: #aaa;
+  }
 }
 
 /* =========================================
@@ -186,13 +230,18 @@
 .event-year-btn {
   padding: 0.4rem 1rem;
   min-width: 70px;
-  border: 1px solid #444;
+  border: 1px solid #ccc;
   background: transparent;
-  color: #bbb;
+  color: #555;
   border-radius: 4px;
   cursor: pointer;
   font-size: 0.9rem;
   transition: all 0.15s;
+
+  html.dark & {
+    border-color: #444;
+    color: #bbb;
+  }
 
   &:hover {
     border-color: #c8922a;
@@ -307,6 +356,26 @@
 }
 
 /* =========================================
+   People / About page
+   ========================================= */
+
+.stbb-people-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem 1rem 3rem;
+}
+
+.stbb-people-content {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.75;
+
+  p {
+    margin-bottom: 1.2rem;
+  }
+}
+
+/* =========================================
    Event card (events section list)
    ========================================= */
 
@@ -322,12 +391,20 @@
   align-items: center;
   gap: 1rem;
   padding: 0.75rem 1rem;
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(0, 0, 0, 0.03);
   border-radius: 4px;
   transition: background 0.15s;
 
+  html.dark & {
+    background: rgba(255, 255, 255, 0.04);
+  }
+
   &:hover {
-    background: rgba(255, 255, 255, 0.09);
+    background: rgba(0, 0, 0, 0.07);
+
+    html.dark & {
+      background: rgba(255, 255, 255, 0.09);
+    }
   }
 }
 
@@ -363,11 +440,15 @@
   .event-card-title {
     font-size: 0.95rem;
     font-weight: 600;
-    color: #eee;
+    color: inherit;
   }
 
   .event-card-location {
     font-size: 0.78rem;
-    color: #888;
+    color: #666;
+
+    html.dark & {
+      color: #888;
+    }
   }
 }

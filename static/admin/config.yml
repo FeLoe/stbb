@@ -1,0 +1,59 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets/media"
+public_folder: "media"
+
+locale: de
+
+collections:
+
+  - name: events
+    label: Auftritte
+    label_singular: Auftritt
+    folder: content/event
+    create: true
+    path: "{{slug}}/index"
+    identifier_field: title
+    sortable_fields: ["date", "title"]
+    fields:
+      - label: "Titel"
+        name: title
+        widget: string
+        hint: "z.B. Konzert im Café Hahn / Koblenz"
+      - label: "Datum & Uhrzeit"
+        name: date
+        widget: datetime
+        date_format: "DD.MM.YYYY"
+        time_format: "HH:mm"
+        format: "YYYY-MM-DDTHH:mm:00Z"
+      - label: "Ort"
+        name: location
+        widget: string
+        hint: "z.B. Koblenz oder Café Hahn, Koblenz"
+      - label: "Veröffentlichungsdatum"
+        name: publishDate
+        widget: datetime
+        format: "YYYY-MM-DDTHH:mm:00Z"
+        default: ""
+
+  - name: gallery
+    label: Galerie
+    label_singular: Foto
+    folder: content/gallery
+    create: true
+    path: "{{slug}}/index"
+    identifier_field: title
+    fields:
+      - label: "Foto"
+        name: image
+        widget: image
+        media_library:
+          config:
+            multiple: false
+      - label: "Beschriftung (optional)"
+        name: title
+        widget: string
+        required: false
+        default: ""

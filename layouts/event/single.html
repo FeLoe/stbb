@@ -14,7 +14,7 @@
     </div>
   </header>
 
-  {{ if kindIs "string" .Params.image }}
+  {{ if and .Params.image (not (reflect.IsMap .Params.image)) }}
   {{ $img := resources.Get .Params.image }}
   {{ if $img }}
   {{ $img = $img.Resize "900x webp" }}

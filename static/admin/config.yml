@@ -41,7 +41,7 @@ collections:
         default: ""
         hint: "Wann soll der Termin auf der Webseite erscheinen? Normalerweise gleich wie das Konzertdatum."
       - label: "Website / Link (optional)"
-        name: url
+        name: external_url
         widget: string
         required: false
         hint: "Link zur Veranstaltung oder zum Veranstaltungsort – wird als Button auf der Konzertseite angezeigt."
@@ -88,7 +88,7 @@ collections:
           config:
             multiple: false
       - label: "Link (optional)"
-        name: url
+        name: external_url
         widget: string
         required: false
         hint: "Link zu einem externen Artikel, z.B. einem Zeitungsbericht. Wird als Button auf der Seite angezeigt."

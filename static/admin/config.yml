@@ -12,6 +12,7 @@ collections:
   - name: events
     label: Auftritte
     label_singular: Auftritt
+    description: "Hier kannst du Konzerttermine hinzufügen, bearbeiten oder löschen. Gespeicherte Änderungen sind nach ein paar Minuten live auf der Webseite."
     folder: content/event
     create: true
     path: "{{slug}}/index"
@@ -28,6 +29,7 @@ collections:
         date_format: "DD.MM.YYYY"
         time_format: "HH:mm"
         format: "YYYY-MM-DDTHH:mm:00Z"
+        hint: "Datum und Uhrzeit des Konzerts."
       - label: "Ort"
         name: location
         widget: string
@@ -37,15 +39,17 @@ collections:
         widget: datetime
         format: "YYYY-MM-DDTHH:mm:00Z"
         default: ""
+        hint: "Wann soll der Termin auf der Webseite erscheinen? Normalerweise gleich wie das Konzertdatum."
       - label: "Website / Link (optional)"
         name: url
         widget: string
         required: false
-        hint: "z.B. https://kaffeewirtschaft-koblenz.de"
+        hint: "Link zur Veranstaltung oder zum Veranstaltungsort – wird als Button auf der Konzertseite angezeigt."
       - label: "Foto (optional)"
         name: image
         widget: image
         required: false
+        hint: "Ein Foto zum Konzert, z.B. vom Veranstaltungsort. Wird auf der Konzertseite angezeigt."
         media_library:
           config:
             multiple: false
@@ -53,6 +57,7 @@ collections:
   - name: gallery
     label: Galerie
     label_singular: Foto
+    description: "Hier kannst du Fotos zur Bildergalerie hinzufügen oder entfernen. Bitte nur querformatige oder hochformatige JPG-Dateien hochladen."
     folder: content/gallery
     create: true
     path: "{{slug}}/index"
@@ -61,6 +66,7 @@ collections:
       - label: "Foto"
         name: image
         widget: image
+        hint: "Foto auswählen oder per Drag & Drop hochladen."
         media_library:
           config:
             multiple: false
@@ -69,3 +75,4 @@ collections:
         widget: string
         required: false
         default: ""
+        hint: "Kurze Beschriftung, z.B. 'Kulturfabrik Koblenz, September 2024'. Wird unter dem Foto angezeigt."

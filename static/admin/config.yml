@@ -37,6 +37,18 @@ collections:
         widget: datetime
         format: "YYYY-MM-DDTHH:mm:00Z"
         default: ""
+      - label: "Website / Link (optional)"
+        name: url
+        widget: string
+        required: false
+        hint: "z.B. https://kaffeewirtschaft-koblenz.de"
+      - label: "Foto (optional)"
+        name: image
+        widget: image
+        required: false
+        media_library:
+          config:
+            multiple: false
 
   - name: gallery
     label: Galerie

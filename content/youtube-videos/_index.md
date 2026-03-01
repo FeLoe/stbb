@@ -17,4 +17,4 @@ date: 2025-08-05T10:00:00+02:00
 
 ## Deichstadtfest Neuwied 2024
 
-{{< youtube "L7saOSaPeou1oxh" >}}
+{{< youtube "qcBKf0rkNjc" >}}

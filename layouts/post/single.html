@@ -9,8 +9,8 @@
     </time>
   </header>
 
-  {{ with .Params.image }}
-  {{ $img := resources.Get (printf "media/%s" (path.Base .)) | default (resources.Get .) }}
+  {{ if kindIs "string" .Params.image }}
+  {{ $img := resources.Get .Params.image }}
   {{ if $img }}
   {{ $img = $img.Resize "900x webp" }}
   <div class="stbb-post-single-image">

@@ -14,10 +14,14 @@
     </div>
   </header>
 
-  {{ with .Params.image }}
+  {{ if kindIs "string" .Params.image }}
+  {{ $img := resources.Get .Params.image }}
+  {{ if $img }}
+  {{ $img = $img.Resize "900x webp" }}
   <div class="stbb-event-single-image">
-    <img src="{{ . }}" alt="{{ $.Title }}">
+    <img src="{{ $img.RelPermalink }}" alt="{{ $.Title }}">
   </div>
+  {{ end }}
   {{ end }}
 
   {{ with .Content }}

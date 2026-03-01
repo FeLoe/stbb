@@ -1,0 +1,35 @@
+{{- define "main" -}}
+
+{{ $months_de := slice "" "Januar" "Februar" "März" "April" "Mai" "Juni" "Juli" "August" "September" "Oktober" "November" "Dezember" }}
+{{ $monthNum := .Date | time.Format "1" | int }}
+{{ $month := index $months_de $monthNum }}
+
+<div class="stbb-event-single">
+
+  <header class="stbb-event-single-header">
+    <h1>{{ .Title }}</h1>
+    <div class="stbb-event-single-meta">
+      <span class="stbb-event-single-date">{{ .Date | time.Format "2" }}. {{ $month }} {{ .Date | time.Format "2006" }}</span>
+      {{ with .Params.location }}<span class="stbb-event-single-location">{{ . }}</span>{{ end }}
+    </div>
+  </header>
+
+  {{ with .Params.image }}
+  <div class="stbb-event-single-image">
+    <img src="{{ . }}" alt="{{ $.Title }}">
+  </div>
+  {{ end }}
+
+  {{ with .Content }}
+  <div class="stbb-event-single-body">{{ . }}</div>
+  {{ end }}
+
+  {{ with .Params.url }}
+  <div class="stbb-event-single-link">
+    <a href="{{ . }}" target="_blank" rel="noopener noreferrer">Mehr Infos ↗</a>
+  </div>
+  {{ end }}
+
+</div>
+
+{{- end -}}

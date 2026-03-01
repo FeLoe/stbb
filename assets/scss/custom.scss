@@ -454,6 +454,81 @@ nav {
 }
 
 /* =========================================
+   Event single page
+   ========================================= */
+
+.stbb-event-single {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.stbb-event-single-header {
+  margin-bottom: 1.5rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.stbb-event-single-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  font-size: 0.9rem;
+  color: #888;
+
+  html.dark & {
+    color: #aaa;
+  }
+}
+
+.stbb-event-single-date {
+  color: #c8922a;
+  font-weight: 600;
+}
+
+.stbb-event-single-image {
+  margin-bottom: 1.75rem;
+  border-radius: 6px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+.stbb-event-single-body {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.stbb-event-single-link {
+  margin-top: 1.5rem;
+
+  a {
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    background: #c8922a;
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+
+    &:hover {
+      background: #e8a83a;
+    }
+  }
+}
+
+/* =========================================
    Songs page
    ========================================= */
 

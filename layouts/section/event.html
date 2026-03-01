@@ -1,0 +1,49 @@
+{{- define "main" -}}
+
+<header class="stbb-section-header">
+  <h1>{{ .Title }}</h1>
+  {{ with .Content }}<div class="stbb-section-intro">{{ . }}</div>{{ end }}
+</header>
+
+<div class="stbb-events-wrapper">
+
+  {{/* Collect years for tab buttons */}}
+  {{ $groups := (.Pages.ByDate.Reverse).GroupByDate "2006" }}
+
+  {{/* Year tab buttons */}}
+  <div id="event-year-tabs">
+    {{ range $i, $group := $groups }}
+      <button
+        class="event-year-btn{{ if eq $i 0 }} active{{ end }}"
+        onclick="showYear('{{ $group.Key }}')"
+        id="btn-{{ $group.Key }}">
+        {{ $group.Key }}
+      </button>
+    {{ end }}
+  </div>
+
+  {{/* Event groups, only the first (newest) year visible by default */}}
+  {{ range $i, $group := $groups }}
+  <div class="event-year-group" id="year-{{ $group.Key }}"{{ if ne $i 0 }} style="display:none;"{{ end }}>
+    {{ range $group.Pages }}
+      {{ partial "event-card.html" . }}
+    {{ end }}
+  </div>
+  {{ end }}
+
+</div>
+
+<script>
+function showYear(year) {
+  document.querySelectorAll('.event-year-group').forEach(function(el) {
+    el.style.display = 'none';
+  });
+  document.querySelectorAll('.event-year-btn').forEach(function(btn) {
+    btn.classList.remove('active');
+  });
+  document.getElementById('year-' + year).style.display = '';
+  document.getElementById('btn-' + year).classList.add('active');
+}
+</script>
+
+{{- end -}}

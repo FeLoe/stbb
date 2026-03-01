@@ -1,0 +1,29 @@
+{{- define "main" -}}
+
+<header class="stbb-section-header">
+  <h1>{{ .Title }}</h1>
+</header>
+
+<div class="stbb-gallery-wrapper">
+  {{ range .RegularPages.ByWeight }}
+  {{ $imgPath := .Params.image }}
+  {{ $img := resources.Get $imgPath }}
+  {{ if $img }}
+    {{ $thumb := $img.Resize "600x webp" }}
+    {{ $full  := $img.Resize "1400x webp" }}
+    <a href="{{ $full.RelPermalink }}" class="stbb-gallery-item" data-lightbox="gallery"
+      {{ with .Params.title }}title="{{ . }}"{{ end }}>
+      <img src="{{ $thumb.RelPermalink }}" alt="{{ .Params.title | default "STBB Galerie" }}" loading="lazy">
+    </a>
+  {{ end }}
+  {{ end }}
+</div>
+
+{{/* GLightbox */}}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script>
+  GLightbox({ selector: '.stbb-gallery-item' });
+</script>
+
+{{- end -}}

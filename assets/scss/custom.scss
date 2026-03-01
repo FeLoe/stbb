@@ -1,0 +1,644 @@
+/* =========================================
+   Global: fonts + primary colour
+   ========================================= */
+
+:root {
+  --color-primary: 200 146 42;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6,
+.stbb-upcoming-title,
+.stbb-section-header h1,
+nav {
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 0.03em;
+}
+
+/* =========================================
+   Home: Hero image
+   ========================================= */
+
+.stbb-hero {
+  width: 100%;
+  height: 80vh;
+  min-height: 400px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1c1917;
+
+  @media (max-width: 640px) {
+    height: auto;
+    min-height: unset;
+  }
+}
+
+.stbb-hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+
+  @media (max-width: 640px) {
+    height: auto;
+    object-fit: initial;
+  }
+}
+
+/* =========================================
+   Home: Upcoming events section
+   ========================================= */
+
+.stbb-upcoming {
+  padding: 3rem 1rem;
+  background: #f3f4f6;
+
+  html.dark & {
+    background: #1c1917;
+  }
+}
+
+.stbb-upcoming-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.stbb-upcoming-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #111;
+
+  html.dark & {
+    color: #fff;
+  }
+}
+
+.upcoming-events-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.upcoming-event-card {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  padding: 1rem 1.25rem;
+  background: rgba(0, 0, 0, 0.04);
+  border-left: 3px solid #c8922a;
+  border-radius: 4px;
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: background 0.2s, border-color 0.2s;
+
+  html.dark & {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.09);
+    border-left-color: #e8a83a;
+
+    html.dark & {
+      background: rgba(255, 255, 255, 0.1);
+    }
+  }
+}
+
+.event-date-badge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 48px;
+  text-align: center;
+
+  .edb-day {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #c8922a;
+  }
+
+  .edb-month {
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #666;
+    margin-top: 2px;
+
+    html.dark & {
+      color: #bbb;
+    }
+  }
+
+  .edb-year {
+    font-size: 0.62rem;
+    color: #888;
+    margin-top: 1px;
+  }
+}
+
+.event-details {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+
+  .event-name {
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: inherit;
+  }
+
+  .event-location {
+    font-size: 0.82rem;
+    color: #666;
+
+    html.dark & {
+      color: #aaa;
+    }
+  }
+}
+
+.event-arrow {
+  color: #999;
+  font-size: 1.2rem;
+
+  html.dark & {
+    color: #555;
+  }
+}
+
+.stbb-see-all {
+  margin-top: 1.5rem;
+  text-align: center;
+
+  a {
+    color: #c8922a;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+
+    &:hover {
+      color: #e8a83a;
+    }
+  }
+}
+
+.stbb-no-events {
+  text-align: center;
+  color: #666;
+
+  html.dark & {
+    color: #aaa;
+  }
+}
+
+/* =========================================
+   Events section page: header + year tabs
+   ========================================= */
+
+.stbb-section-header {
+  padding: 2rem 1rem 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.stbb-section-intro {
+  color: #aaa;
+  margin-top: 0.5rem;
+}
+
+.stbb-events-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 1rem 1rem 3rem;
+}
+
+#event-year-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.event-year-btn {
+  padding: 0.4rem 1rem;
+  min-width: 70px;
+  border: 1px solid #ccc;
+  background: transparent;
+  color: #555;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: all 0.15s;
+
+  html.dark & {
+    border-color: #444;
+    color: #bbb;
+  }
+
+  &:hover {
+    border-color: #c8922a;
+    color: #c8922a;
+  }
+
+  &.active {
+    background: #c8922a;
+    border-color: #c8922a;
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+/* =========================================
+   Gallery grid
+   ========================================= */
+
+.stbb-gallery-wrapper {
+  columns: 3 280px;
+  gap: 0.5rem;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  @media (max-width: 600px) {
+    columns: 2 140px;
+  }
+}
+
+.stbb-gallery-item {
+  display: block;
+  margin-bottom: 0.5rem;
+  break-inside: avoid;
+  overflow: hidden;
+  border-radius: 3px;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.2s;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.85;
+    }
+  }
+}
+
+/* =========================================
+   Contact form
+   ========================================= */
+
+.stbb-contact-wrapper {
+  max-width: 640px;
+  margin: 2rem auto;
+  padding: 0 1rem 3rem;
+}
+
+.stbb-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+
+  label {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    font-size: 0.9rem;
+    color: #bbb;
+  }
+
+  input,
+  textarea {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid #444;
+    border-radius: 4px;
+    color: #eee;
+    padding: 0.6rem 0.8rem;
+    font-size: 0.95rem;
+    width: 100%;
+
+    &:focus {
+      outline: none;
+      border-color: #c8922a;
+    }
+  }
+
+  textarea {
+    min-height: 140px;
+    resize: vertical;
+  }
+
+  button[type="submit"] {
+    align-self: flex-start;
+    padding: 0.6rem 1.8rem;
+    background: #c8922a;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+
+    &:hover {
+      background: #e8a83a;
+    }
+  }
+}
+
+/* =========================================
+   People / About page
+   ========================================= */
+
+.stbb-people-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem 1rem 3rem;
+}
+
+.stbb-people-content {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.75;
+
+  p {
+    margin-bottom: 1.2rem;
+  }
+}
+
+/* =========================================
+   Event card (events section list)
+   ========================================= */
+
+.event-card-link {
+  display: block;
+  text-decoration: none !important;
+  color: inherit !important;
+  margin-bottom: 0.5rem;
+}
+
+.event-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  background: rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+  transition: background 0.15s;
+
+  html.dark & {
+    background: rgba(255, 255, 255, 0.04);
+  }
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.07);
+
+    html.dark & {
+      background: rgba(255, 255, 255, 0.09);
+    }
+  }
+}
+
+.event-card-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 44px;
+  text-align: center;
+
+  .ecd-day {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #c8922a;
+  }
+
+  .ecd-month {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+    margin-top: 1px;
+  }
+}
+
+.event-card-info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+
+  .event-card-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: inherit;
+  }
+
+  .event-card-location {
+    font-size: 0.78rem;
+    color: #666;
+
+    html.dark & {
+      color: #888;
+    }
+  }
+}
+
+/* =========================================
+   Post (Presse & News) single page
+   ========================================= */
+
+.stbb-post-single {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.stbb-post-single-header {
+  margin-bottom: 1.5rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.stbb-post-single-date {
+  display: block;
+  font-size: 0.9rem;
+  color: #c8922a;
+  font-weight: 600;
+}
+
+.stbb-post-single-image {
+  margin-bottom: 1.75rem;
+  border-radius: 6px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+.stbb-post-single-body {
+  font-size: 1rem;
+  line-height: 1.75;
+
+  p { margin-bottom: 1.2rem; }
+  a { color: #c8922a; }
+}
+
+.stbb-post-single-link {
+  margin-top: 1.5rem;
+
+  a {
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    background: #c8922a;
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+
+    &:hover { background: #e8a83a; }
+  }
+}
+
+/* =========================================
+   Event single page
+   ========================================= */
+
+.stbb-event-single {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 2rem 1rem 3rem;
+}
+
+.stbb-event-single-header {
+  margin-bottom: 1.5rem;
+
+  h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+}
+
+.stbb-event-single-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+  font-size: 0.9rem;
+  color: #888;
+
+  html.dark & {
+    color: #aaa;
+  }
+}
+
+.stbb-event-single-date {
+  color: #c8922a;
+  font-weight: 600;
+}
+
+.stbb-event-single-image {
+  margin-bottom: 1.75rem;
+  border-radius: 6px;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+
+.stbb-event-single-body {
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.stbb-event-single-link {
+  margin-top: 1.5rem;
+
+  a {
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    background: #c8922a;
+    color: #fff !important;
+    text-decoration: none !important;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+
+    &:hover {
+      background: #e8a83a;
+    }
+  }
+}
+
+/* =========================================
+   Songs page
+   ========================================= */
+
+.stbb-songs-wrapper {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 1rem 1rem 3rem;
+}
+
+.stbb-songs-content {
+  margin-top: 1.5rem;
+
+  p {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1.5rem 0 0.4rem;
+    color: inherit;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.stbb-audio-player {
+  width: 100%;
+  height: 36px;
+  border-radius: 4px;
+  outline: none;
+
+  &::-webkit-media-controls-panel {
+    background: rgba(0, 0, 0, 0.06);
+
+    html.dark & {
+      background: rgba(255, 255, 255, 0.07);
+    }
+  }
+}

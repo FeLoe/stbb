@@ -1,10 +1,5 @@
-# Configuration of Hugo
-# Guide: https://wowchemy.com/docs/getting-started/
-# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
-
-title: Steve Taylor Blues Band # Website name
-baseURL: "https://steve-taylor-blues.band" # Website URL
+title: Steve Taylor Blues Band
+baseURL: "https://steve-taylor-blues.band"
 
 ############################
 ## LANGUAGE
@@ -21,9 +16,7 @@ removePathAccents: true
 
 module:
   imports:
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify-cms
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy-plugin-netlify
-    - path: github.com/wowchemy/wowchemy-hugo-themes/modules/wowchemy/v5
+    - path: github.com/jpanther/congo/v2
 
 ############################
 ## ADVANCED
@@ -31,48 +24,37 @@ module:
 
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
+pagination:
+  pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
-footnotereturnlinkcontents: <sup>^</sup>
-ignoreFiles:
-  [\.ipynb$, .ipynb_checkpoints$, \.Rmd$, \.Rmarkdown$, _cache$, .DS_Store]
-permalinks:
-  authors: "/author/:slug/"
-  tags: "/tag/:slug/"
-  categories: "/category/:slug/"
-  publication_types: "/publication-type/:slug/"
-disableAliases: true
+buildFuture: true
+
+ignoreFiles: [\.DS_Store]
+
 outputs:
-  home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
+  home: [HTML, RSS, JSON]
   section: [HTML, RSS]
+
 imaging:
   resampleFilter: lanczos
   quality: 75
   anchor: smart
+
 timeout: 600000
+
 taxonomies:
   tag: tags
   category: categories
-  publication_type: publication_types
-  author: authors
+
 markup:
-  _merge: deep
-related:
-  threshold: 80
-  includeNewer: true
-  toLower: true
-  indices:
-    - name: tags
-      weight: 100
-    - name: categories
-      weight: 70
-security:
-  _merge: deep
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 4
+
 sitemap:
-  _merge: deep
-buildFuture: true
-params:
-  marquee:
-    enable: true
-    file: .marquee.md
+  changefreq: monthly
+  priority: 0.5

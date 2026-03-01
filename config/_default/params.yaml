@@ -1,115 +1,43 @@
-# SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+colorScheme: stone
+defaultAppearance: dark
+autoSwitchAppearance: true
 
-# Appearance
+mainSections:
+  - post
+  - event
 
-appearance:
-  theme_day: Mr Robot
-  theme_night: Mr Robot
-  font: Rose
-  font_size: L
+description: "Die Steve Taylor Blues Band aus Koblenz – Blues, Rock und Soul live erleben. Aktuelle Auftrittstermine, Fotos und Infos zur Band."
 
-# SEO
-
-marketing:
-  seo:
-    site_type: Organization
-    local_business_type: ""
-    org_name: ""
-    description: "Website of the Steve Taylor Blues Band"
-  analytics:
-    google_analytics: ""
-    baidu_tongji: ""
-  verification:
-    google: ""
-    baidu: ""
-
-# Site header
+homepage:
+  layout: custom
 
 header:
-  navbar:
-    enable: true
-    align: r
-    show_logo: true
-    show_language: false
-    show_day_night: true
-    show_search: true
-    highlight_active_link: true
+  layout: basic
+  logo: "media/logo.png"
+  showTitle: false
 
-# Site footer
+navigation:
+  showSearch: true
 
 footer:
-  copyright:
-    notice: "© {year} Steve Taylor Blues Band. This work is licensed under {license}"
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+  showCopyright: true
+  showThemeAttribution: false
+  showScrollToTop: true
+  showAppearanceSwitcher: false
 
-# Localization
+article:
+  showDate: true
+  showDateUpdated: false
+  showAuthor: false
+  showReadingTime: false
+  showTableOfContents: false
+  showTaxonomies: true
+  showWordCount: false
+  showSummary: true
 
-locale:
-  date_format: "Jan 2, 2006"
-  time_format: "15:30"
-  address_format: de
+list:
+  showSummary: true
+  groupByYear: false
 
-# Site features
-
-features:
-  syntax_highlighter:
-    enable: false
-    extra_languages:
-      - r
-      - latex
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ""
-    disqus:
-      shortname: ""
-      show_count: true
-    commento:
-      url: ""
-    giscus:
-      repo: ""
-      repo_id: ""
-      category: ""
-      category_id: ""
-  search:
-    provider: wowchemy
-    algolia:
-      app_id: ""
-      api_key: ""
-      index_name: ""
-      show_logo: false
-  map:
-    provider: "mapnik"
-    api_key: ""
-    zoom: 15
-
-# Extensions
-
-extensions:
-  cms:
-    branch: main
-    local_backend: false
-  academicons:
-    enable: true
-
-# Citation style
-
-publications:
-  date_format: January 2006
-  citation_style: apa
-
-marquee:
-  enable: true
-  file: .marquee.md
+fathomAnalytics:
+  site: ""

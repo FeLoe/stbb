@@ -1,0 +1,35 @@
+main:
+  - name: Events
+    url: /event/
+    weight: 10
+  - name: Über uns
+    url: /people/
+    weight: 20
+  - name: Presse
+    url: /post/
+    weight: 30
+  - name: Galerie
+    url: /gallery/
+    weight: 40
+  - name: Videos
+    url: /youtube-videos/
+    weight: 50
+  - name: Songs
+    url: /songs/
+    weight: 60
+  - name: Kontakt
+    url: /contact/
+    weight: 70
+  - name: ""
+    weight: 80
+    params:
+      action: appearance
+      showName: false
+
+footer:
+  - name: Impressum
+    url: /privacy/
+    weight: 10
+  - name: Datenschutz
+    url: /terms/
+    weight: 20

@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STBB – Content Manager</title>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+</head>
+<body>
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    // Gender-correct labels for each collection's label_singular
+    var genderForms = {
+      'Auftritt': 'Neuer Auftritt',
+      'Artikel':  'Neuer Artikel',
+      'Foto':     'Neues Foto'
+    };
+    function fixRSText() {
+      document.querySelectorAll('button, h1, h2, h3, h4, span, a').forEach(function(el) {
+        if (el.children.length > 0) return;
+        var t = el.textContent;
+        if (t.indexOf('(r/s)') === -1) return;
+        if (el.tagName === 'BUTTON' && t.startsWith('Neue(r/s) ')) {
+          el.textContent = t.replace('Neue(r/s) ', '') + ' hinzufügen';
+        } else {
+          var noun = t.replace('Neue(r/s) ', '').trim();
+          el.textContent = genderForms[noun] || t.replace(/\(r\/s\)/g, '');
+        }
+      });
+    }
+    new MutationObserver(fixRSText).observe(document.body, { childList: true, subtree: true });
+  </script>
+</body>
+</html>

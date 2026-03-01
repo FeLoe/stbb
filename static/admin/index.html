@@ -9,13 +9,14 @@
 <body>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   <script>
-    CMS.registerLocale('de', {
-      collection: {
-        collectionTop: {
-          newButton: '{{collectionLabel}} hinzufügen',
-        },
-      },
-    });
+    new MutationObserver(function() {
+      document.querySelectorAll('button').forEach(function(btn) {
+        var t = btn.textContent.trim();
+        if (t.startsWith('Neue(r/s) ')) {
+          btn.textContent = t.replace('Neue(r/s) ', '') + ' hinzufügen';
+        }
+      });
+    }).observe(document.body, { childList: true, subtree: true });
   </script>
 </body>
 </html>

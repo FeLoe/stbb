@@ -381,7 +381,35 @@ nav {
   line-height: 1.75;
 
   p {
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.4rem;
+  }
+
+  // Style the PDF stage rider link as a CTA button
+  a[href$=".pdf"] {
+    display: inline-block;
+    margin-top: 0.25rem;
+    padding: 0.45rem 1.1rem;
+    border: 2px solid #c8922a;
+    border-radius: 4px;
+    color: #c8922a !important;
+    font-weight: 600;
+    font-size: 0.9rem;
+    letter-spacing: 0.04em;
+    text-decoration: none !important;
+    transition: background-color 0.2s, color 0.2s;
+
+    &:hover {
+      background-color: #c8922a;
+      color: #fff !important;
+    }
+  }
+
+  // Visual separator before the band bio block
+  // (targets the first p after the stage rider p)
+  p:nth-child(4) {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgba(200, 146, 42, 0.3);
   }
 }
 

@@ -103,6 +103,32 @@ collections:
         required: false
         hint: "Kurzer Teaser-Text für die Übersichtsseite. Wenn leer, wird automatisch der Anfang des Textes verwendet."
 
+  - name: videos
+    label: Videos
+    label_singular: Video
+    description: "Hier kannst du YouTube-Videos hinzufügen oder entfernen. Die Video-ID findest du in der YouTube-URL nach 'v=', z.B. 'qcBKf0rkNjc' aus 'https://www.youtube.com/watch?v=qcBKf0rkNjc'."
+    folder: content/youtube-videos
+    create: true
+    path: "{{slug}}/index"
+    identifier_field: title
+    sortable_fields: ["date", "title"]
+    fields:
+      - label: "Titel"
+        name: title
+        widget: string
+        hint: "z.B. Deichstadtfest Neuwied 2024"
+      - label: "Datum"
+        name: date
+        widget: datetime
+        date_format: "DD.MM.YYYY"
+        time_format: false
+        format: "YYYY-MM-DDT00:00:00Z"
+        hint: "Datum des Konzerts oder Videos."
+      - label: "YouTube-Video-ID"
+        name: youtube_id
+        widget: string
+        hint: "Die ID aus der YouTube-URL, z.B. 'qcBKf0rkNjc' aus 'https://www.youtube.com/watch?v=qcBKf0rkNjc'"
+
   - name: gallery
     label: Galerie
     label_singular: Foto

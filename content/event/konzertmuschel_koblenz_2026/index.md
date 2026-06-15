@@ -3,7 +3,7 @@ title: Konzertmuschel am Rhein / Koblenz
 date: 2026-07-02T19:00:00+02:00
 location: Konzertmuschel am Rhein Koblenz
 summary: Die Steve Taylor Blues Band live an der Konzertmuschel am Rhein in Koblenz.
-publishDate: 2026-03-01T00:00:00.000Z
+publishDate: 2026-06-15T12:02:00+02:00
 external_url: https://music-live-koblenz.de/konzertmuschel.html
 image: konzertmuschel_09-5370bcf8.jpg
 ---

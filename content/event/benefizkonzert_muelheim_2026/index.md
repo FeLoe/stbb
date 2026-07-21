@@ -1,11 +1,8 @@
 ---
-title: Benefizkonzert / Mülheim-Kärlich
-
-location: Dachterrasse billi & friends Mülheim-Kärlich
-
-summary: "Benefizkonzert mit der Steve Taylor Blues Band auf der Dachterrasse billi & friends."
-
-date: "2026-08-28T19:00:00Z"
-
-publishDate: "2026-03-01T00:00:00Z"
+title: Benefizkonzert - Privatfeier
+date: 2026-08-28T20:00:00+02:00
+location: Koblenz
+summary: Benefizkonzert mit der Steve Taylor Blues Band auf der Dachterrasse
+  billi & friends.
+publishDate: 2026-07-21T20:39:00+02:00
 ---

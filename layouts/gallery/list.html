@@ -18,6 +18,10 @@
     {{ if not $img }}{{ $img = resources.Get (printf "media/%s" (path.Base .)) }}{{ end }}
   {{ end }}
   {{ if $img }}
+    {{/* Publish the untouched original to /media/<file> so the Decap CMS (git-gateway)
+         can show image previews — it loads them from the public URL (public_folder=/media),
+         and Hugo would otherwise only publish the processed _hu_*.webp derivatives. */}}
+    {{ $orig := $img.Permalink }}
     {{ $thumb := $img.Resize "600x webp" }}
     {{ $full  := $img.Resize "1400x webp" }}
     <a href="{{ $full.RelPermalink }}" class="stbb-gallery-item" data-lightbox="gallery"

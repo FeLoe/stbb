@@ -1,5 +1,5 @@
 ---
 image: /media/Band_komplett.jpg
 title: ""
-date: 2026-03-01T12:00:00Z
+date: 2022-11-06T15:03:36+01:00
 ---

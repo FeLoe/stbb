@@ -1,5 +1,5 @@
 ---
 image: /media/neuwied.jpeg
 title: ""
-date: 2026-03-01T11:57:00Z
+date: 2024-06-01T18:00:00+02:00
 ---

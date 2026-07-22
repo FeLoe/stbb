@@ -164,5 +164,5 @@ collections:
       - label: "Datum (Reihenfolge)"
         name: date
         widget: datetime
-        format: "YYYY-MM-DDTHH:mm:00Z"
+        format: "YYYY-MM-DDTHH:mm:ssZ"
         hint: "Wird automatisch auf jetzt gesetzt und bestimmt die Reihenfolge – neueste Fotos erscheinen vorne. Muss normalerweise nicht geändert werden."

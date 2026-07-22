@@ -1,5 +1,5 @@
 ---
-image: "media/neuwied3.jpeg"
+image: /media/neuwied3.jpeg
 title: ""
-weight: 260
+date: 2026-03-01T11:35:00Z
 ---

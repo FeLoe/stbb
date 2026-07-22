@@ -1,5 +1,5 @@
 ---
-image: "media/Vier_Fans_Innen.jpg"
+image: /media/Vier_Fans_Innen.jpg
 title: ""
-weight: 350
+date: 2026-03-01T11:26:00Z
 ---

@@ -1,5 +1,5 @@
 ---
-image: "media/Joe_B_Gibbons.jpg"
+image: /media/Joe_B_Gibbons.jpg
 title: ""
-weight: 230
+date: 2026-03-01T11:38:00Z
 ---

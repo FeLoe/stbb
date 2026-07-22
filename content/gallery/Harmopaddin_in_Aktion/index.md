@@ -1,5 +1,5 @@
 ---
-image: "media/Harmopaddin_in_Aktion.jpg"
+image: /media/Harmopaddin_in_Aktion.jpg
 title: ""
-weight: 50
+date: 2026-03-01T11:56:00Z
 ---

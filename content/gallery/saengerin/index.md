@@ -1,5 +1,5 @@
 ---
-image: "media/saengerin.jpeg"
+image: /media/saengerin.jpeg
 title: ""
-weight: 170
+date: 2026-03-01T11:44:00Z
 ---

@@ -1,5 +1,5 @@
 ---
-image: "media/juergen2.jpeg"
+image: /media/juergen2.jpeg
 title: ""
-weight: 140
+date: 2026-03-01T11:47:00Z
 ---

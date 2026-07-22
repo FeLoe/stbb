@@ -1,5 +1,5 @@
 ---
-image: "media/Band_mit_Eva_Taylor.jpg"
+image: /media/Band_mit_Eva_Taylor.jpg
 title: ""
-weight: 100
+date: 2026-03-01T11:51:00Z
 ---

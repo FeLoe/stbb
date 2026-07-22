@@ -1,5 +1,5 @@
 ---
-image: "media/ZZ_Top_4.jpg"
+image: /media/ZZ_Top_4.jpg
 title: ""
-weight: 250
+date: 2026-03-01T11:36:00Z
 ---

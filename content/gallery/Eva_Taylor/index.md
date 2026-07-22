@@ -1,5 +1,5 @@
 ---
-image: "media/Eva_Taylor.jpg"
+image: /media/Eva_Taylor.jpg
 title: ""
-weight: 290
+date: 2026-03-01T11:32:00Z
 ---

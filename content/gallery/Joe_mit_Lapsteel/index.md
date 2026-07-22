@@ -1,5 +1,5 @@
 ---
-image: "media/Joe_mit_Lapsteel.jpg"
+image: /media/Joe_mit_Lapsteel.jpg
 title: ""
-weight: 370
+date: 2026-03-01T11:24:00Z
 ---

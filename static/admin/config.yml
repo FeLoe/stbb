@@ -132,28 +132,37 @@ collections:
   - name: gallery
     label: Galerie
     label_singular: Foto
-    description: "Hier kannst du Fotos zur Bildergalerie hinzufügen oder entfernen. Bitte nur querformatige oder hochformatige JPG-Dateien hochladen."
+    description: "Fotos der Bildergalerie. Neues Foto: auf 'Foto hinzufügen' klicken, Bild auswählen, speichern – es erscheint automatisch ganz vorne. Zum Löschen ein Foto öffnen und auf 'Löschen' klicken."
     folder: content/gallery
     create: true
     path: "{{slug}}/index"
+    slug: "foto-{{year}}{{month}}{{day}}-{{hour}}{{minute}}{{second}}"
+    # Absolute paths (leading slash) so Decap resolves images from the site root
+    # (assets/media) instead of relative to each entry's folder.
+    media_folder: "/assets/media"
+    public_folder: "/media"
     identifier_field: title
+    # Label for the list view: caption if present, otherwise "Foto" (photos are mostly untitled).
+    summary: '{{fields.title | default("Foto")}}'
+    sortable_fields:
+      - date
+      - title
     fields:
       - label: "Foto"
         name: image
         widget: image
-        hint: "Foto auswählen oder per Drag & Drop hochladen."
+        hint: "Foto auswählen oder per Drag & Drop hochladen. Bitte nur JPG-Dateien."
         media_library:
           config:
             multiple: false
-      - label: "Beschriftung (optional)"
+      - label: "Beschriftung"
         name: title
         widget: string
         required: false
         default: ""
-        hint: "Kurze Beschriftung, z.B. 'Kulturfabrik Koblenz, September 2024'. Wird unter dem Foto angezeigt."
-      - label: "Reihenfolge (optional)"
-        name: weight
-        widget: number
-        value_type: int
-        required: false
-        hint: "Position in der Galerie – niedrigere Zahl erscheint weiter vorne. Leer lassen, damit das Foto ans Ende gestellt wird."
+        hint: "Kurze Beschriftung, z.B. 'Kulturfabrik Koblenz, September 2024'. Kann leer bleiben."
+      - label: "Datum (Reihenfolge)"
+        name: date
+        widget: datetime
+        format: "YYYY-MM-DDTHH:mm:00Z"
+        hint: "Wird automatisch auf jetzt gesetzt und bestimmt die Reihenfolge – neueste Fotos erscheinen vorne. Muss normalerweise nicht geändert werden."

@@ -1,5 +1,5 @@
 ---
-image: "media/maddin-harp.jpeg"
+image: /media/maddin-harp.jpeg
 title: ""
-weight: 220
+date: 2026-03-01T11:39:00Z
 ---

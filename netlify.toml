@@ -15,3 +15,10 @@
 
 [context.branch-deploy]
   command = "hugo --minify -b $DEPLOY_PRIME_URL"
+
+# Always fetch a fresh CMS config so config changes reach editors immediately
+# (otherwise browsers cache config.yml and run a stale gallery/collection setup).
+[[headers]]
+  for = "/admin/config.yml"
+  [headers.values]
+    Cache-Control = "no-cache, no-store, must-revalidate"

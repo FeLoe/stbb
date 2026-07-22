@@ -1,5 +1,5 @@
 ---
-image: "media/mitpublikum.jpeg"
+image: /media/mitpublikum.jpeg
 title: ""
-weight: 320
+date: 2026-03-01T11:29:00Z
 ---

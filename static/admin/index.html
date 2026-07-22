@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>STBB – Content Manager</title>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <style>
+    /* Hide the standalone "Medien" library nav button — Fotos are managed via Galerie.
+       The image picker inside the Foto widget still works. */
+    a[href="/media"], a[href="#/media"], a[href$="/media"] { display: none !important; }
+  </style>
 </head>
 <body>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
@@ -29,7 +34,20 @@
         }
       });
     }
-    new MutationObserver(fixRSText).observe(document.body, { childList: true, subtree: true });
+    // Hide the standalone "Medien"/"Media" library button in the top nav
+    // (Fotos are managed via Galerie; the in-widget image picker still works).
+    function hideMediaNav() {
+      document.querySelectorAll('a, button').forEach(function(el) {
+        var href = el.getAttribute('href') || '';
+        var t = (el.textContent || '').trim();
+        if (href === '/media' || href === '#/media' || /\/media\/?$/.test(href)
+            || t === 'Medien' || t === 'Media') {
+          el.style.display = 'none';
+        }
+      });
+    }
+    function patch() { fixRSText(); hideMediaNav(); }
+    new MutationObserver(patch).observe(document.body, { childList: true, subtree: true });
   </script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 ---
-image: "media/Harpomaddin_in_Aktion_2.jpg"
+image: /media/Harpomaddin_in_Aktion_2.jpg
 title: ""
-weight: 130
+date: 2026-03-01T11:48:00Z
 ---

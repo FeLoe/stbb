@@ -1,5 +1,5 @@
 ---
-image: "media/schlagzeuger.jpeg"
+image: /media/schlagzeuger.jpeg
 title: ""
-weight: 280
+date: 2026-03-01T11:33:00Z
 ---

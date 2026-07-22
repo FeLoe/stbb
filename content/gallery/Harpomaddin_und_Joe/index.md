@@ -1,5 +1,5 @@
 ---
-image: "media/Harpomaddin_und_Joe.jpg"
+image: /media/Harpomaddin_und_Joe.jpg
 title: ""
-weight: 360
+date: 2026-03-01T11:25:00Z
 ---

@@ -1,5 +1,5 @@
 ---
-image: "media/juergenmaddin.jpeg"
+image: /media/juergenmaddin.jpeg
 title: ""
-weight: 270
+date: 2026-03-01T11:34:00Z
 ---

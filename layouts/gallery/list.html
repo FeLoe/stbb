@@ -5,15 +5,24 @@
 </header>
 
 <div class="stbb-gallery-wrapper">
-  {{ range .RegularPages.ByWeight }}
-  {{ $imgPath := .Params.image }}
-  {{ $img := resources.Get $imgPath }}
+  {{/* Newest first: a photo added in the CMS gets date=now and sorts to the front */}}
+  {{ range .RegularPages.ByDate.Reverse }}
+  {{ $page := . }}
+  {{ $img := false }}
+  {{ with .Params.image }}
+    {{/* 1) path as stored, e.g. "media/foo.jpg" resolved from assets/ */}}
+    {{ $img = resources.Get . }}
+    {{/* 2) image saved inside the entry's own bundle, e.g. bare "foo.jpg" */}}
+    {{ if not $img }}{{ $img = $page.Resources.GetMatch (path.Base .) }}{{ end }}
+    {{/* 3) bare filename that actually lives in assets/media/ */}}
+    {{ if not $img }}{{ $img = resources.Get (printf "media/%s" (path.Base .)) }}{{ end }}
+  {{ end }}
   {{ if $img }}
     {{ $thumb := $img.Resize "600x webp" }}
     {{ $full  := $img.Resize "1400x webp" }}
     <a href="{{ $full.RelPermalink }}" class="stbb-gallery-item" data-lightbox="gallery"
-      {{ with .Params.title }}title="{{ . }}"{{ end }}>
-      <img src="{{ $thumb.RelPermalink }}" alt="{{ .Params.title | default "STBB Galerie" }}" loading="lazy">
+      {{ with .Title }}title="{{ . }}"{{ end }}>
+      <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title | default "STBB Galerie" }}" loading="lazy">
     </a>
   {{ end }}
   {{ end }}

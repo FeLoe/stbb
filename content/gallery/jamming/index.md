@@ -1,5 +1,5 @@
 ---
-image: "media/jamming.jpeg"
+image: /media/jamming.jpeg
 title: ""
-weight: 70
+date: 2026-03-01T11:54:00Z
 ---

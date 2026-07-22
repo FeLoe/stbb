@@ -1,5 +1,5 @@
 ---
-image: "media/Steves_Drumset.jpg"
+image: /media/Steves_Drumset.jpg
 title: ""
-weight: 330
+date: 2026-03-01T11:28:00Z
 ---

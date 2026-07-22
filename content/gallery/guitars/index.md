@@ -1,5 +1,5 @@
 ---
-image: "media/guitars.jpg"
+image: /media/guitars.jpg
 title: ""
-weight: 150
+date: 2026-03-01T11:46:00Z
 ---

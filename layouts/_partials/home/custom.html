@@ -2,7 +2,7 @@
 
 {{/* Hero / fullscreen banner */}}
 <section class="stbb-hero">
-  {{ $img := resources.Get "media/main_page.jpeg" }}
+  {{ $img := resources.Get "media/band_2026.jpg" }}
   {{ if $img }}
     {{ $img = $img.Resize "1600x webp" }}
     <img src="{{ $img.RelPermalink }}" alt="Steve Taylor Blues Band" class="stbb-hero-img">

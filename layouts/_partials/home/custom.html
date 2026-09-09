@@ -1,11 +1,22 @@
 {{/* Custom home page: hero image + upcoming events */}}
 
-{{/* Hero / fullscreen banner */}}
+{{/* Hero / fullscreen banner. The image is set in the CMS ("Startseite" page,
+     field "Bild oben"); falls back to the current band photo if unset. */}}
 <section class="stbb-hero">
-  {{ $img := resources.Get "media/band_2026.jpg" }}
+  {{ $img := false }}
+  {{ with .Params.hero }}
+    {{/* 1) path as stored, e.g. "/media/foo.jpg" resolved from assets/ */}}
+    {{ $img = resources.Get . }}
+    {{/* 2) bare filename that actually lives in assets/media/ */}}
+    {{ if not $img }}{{ $img = resources.Get (printf "media/%s" (path.Base .)) }}{{ end }}
+  {{ end }}
+  {{ if not $img }}{{ $img = resources.Get "media/band_2026.jpg" }}{{ end }}
   {{ if $img }}
-    {{ $img = $img.Resize "1600x webp" }}
-    <img src="{{ $img.RelPermalink }}" alt="Steve Taylor Blues Band" class="stbb-hero-img">
+    {{/* Publish the untouched original to /media/<file> so the Decap CMS can show
+         a preview — it loads images from the public URL (public_folder=/media). */}}
+    {{ $orig := $img.Permalink }}
+    {{ $resized := $img.Resize "1600x webp" }}
+    <img src="{{ $resized.RelPermalink }}" alt="Steve Taylor Blues Band" class="stbb-hero-img">
   {{ end }}
 </section>
 

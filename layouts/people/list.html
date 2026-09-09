@@ -3,7 +3,21 @@
   <header class="stbb-section-header">
     <h1>{{ .Title }}</h1>
   </header>
+
+  {{/* Intro block: audio sample + stage rider. Kept out of .Content on purpose —
+       the CMS rich-text editor mangles Hugo shortcodes, so these live in the
+       front matter instead ("Über uns" page in the CMS). */}}
   <div class="prose dark:prose-invert stbb-people-content">
+    {{ with .Params.intro }}<p>{{ . }}</p>{{ end }}
+    {{ with .Params.audiofile }}
+      <audio controls class="stbb-audio-player">
+        <source src="{{ . }}" type="audio/mpeg">
+      </audio>
+    {{ end }}
+    {{ with .Params.stagerider }}
+      <p>Ihr wollt, dass wir vorbeikommen? Hier ist unser <a href="{{ . }}">STAGE RIDER</a></p>
+    {{ end }}
+
     {{ .Content }}
   </div>
 </div>

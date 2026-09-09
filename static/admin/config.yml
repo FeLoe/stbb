@@ -166,3 +166,59 @@ collections:
         widget: datetime
         format: "YYYY-MM-DDTHH:mm:ssZ"
         hint: "Wird automatisch auf jetzt gesetzt und bestimmt die Reihenfolge – neueste Fotos erscheinen vorne. Muss normalerweise nicht geändert werden."
+
+  - name: pages
+    label: Seiten
+    label_singular: Seite
+    description: "Feste Seiten der Webseite. Hier kannst du den Text der Seite 'Über uns' und das große Foto auf der Startseite ändern."
+    # Absolute paths (leading slash) so Decap resolves images from the site root
+    # (assets/media) instead of relative to each page's own folder.
+    media_folder: "/assets/media"
+    public_folder: "/media"
+    files:
+      - name: about
+        label: "Über uns"
+        file: content/people/_index.md
+        description: "Der Text auf der Seite 'Über uns'."
+        fields:
+          - label: "Seitentitel"
+            name: title
+            widget: string
+            hint: "Überschrift der Seite. Normalerweise 'Über uns'."
+          - label: "Einleitung über der Hörprobe"
+            name: intro
+            widget: text
+            required: false
+            hint: "Der kurze Satz, der über dem Abspieler steht."
+          - label: "Hörprobe (Audio-Datei)"
+            name: audiofile
+            widget: string
+            required: false
+            hint: "Pfad zur MP3-Datei, z.B. /files/rhine_mosel.mp3"
+          - label: "Stage Rider (Link)"
+            name: stagerider
+            widget: string
+            required: false
+            hint: "Link zur Stage-Rider-PDF. Leer lassen, um den Hinweis auszublenden."
+          - label: "Bandbeschreibung"
+            name: body
+            widget: markdown
+            hint: "Der Haupttext der Seite. Für eine Überschrift oder eine Liste die Werkzeugleiste benutzen."
+
+      - name: home
+        label: "Startseite"
+        file: content/_index.md
+        description: "Das große Foto ganz oben auf der Startseite."
+        fields:
+          - label: "Seitentitel"
+            name: title
+            widget: string
+            hint: "Wird nicht angezeigt, aber von der Webseite gebraucht. Am besten so lassen."
+          - label: "Bild oben"
+            name: hero
+            widget: image
+            required: false
+            hint: "Das große Bandfoto ganz oben auf der Startseite. Am besten ein breites Querformat-Foto."
+            media_library:
+              config:
+                multiple: false

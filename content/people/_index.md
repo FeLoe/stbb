@@ -1,12 +1,9 @@
 ---
 title: Über uns
+intro: "Am besten lernt man uns kennen über unsere Musik -- der Rhine Mosel Delta Blues wurde von Martin Taylor für unsere Band geschrieben, hier könnt ihr reinhören:"
+audiofile: /files/rhine_mosel.mp3
+stagerider: https://steve-taylor-blues.band/files/stagerider.pdf
 ---
-
-Am besten lernt man uns kennen über unsere Musik -- der Rhine Mosel Delta Blues wurde von Martin Taylor für unsere Band geschrieben, hier könnt ihr reinhören:
-
-{{< audio src="/files/rhine_mosel.mp3" >}}
-
-Ihr wollt, dass wir vorbeikommen? Hier ist unser [STAGE RIDER](https://steve-taylor-blues.band/files/stagerider.pdf)
 
 Die Steve Taylor Blues Band (STBB) zählt seit Jahren zu den gefragten und vielseitigsten Blues-Formationen im Rheinland. STBB: Das sind sechs Bluesmusiker aus Überzeugung, wie man sie nur im Rhein-Mosel-Delta bei Koblenz finden kann. Ihre Songs reichen vom puren Chicago-Blues der 50er und 60er Jahre über treibenden Boogie oder auch mal krachenden Southern Rock bis hin zu äußerst einfühlsamen und gefühlvollen Songs der britischen und amerikanischen Bluesszene. Aber auch bluesangehauchte Rock- und Poptitel der zurückliegenden Jahrzehnte kennzeichnen das abwechslungsreiche Repertoire der Truppe. "DIG THE BLUES!"
 

@@ -1,0 +1,15 @@
+{{/* Finds the photo of a post or event; returns the image resource or false.
+     Decap saves a photo uploaded for an entry next to its index.md (page bundle)
+     and writes only the file name into `image`. Older entries use an assets/media
+     path ("/media/foo.jpg") or a file called featured.* in the bundle. */}}
+{{- $page := . -}}
+{{- $img := false -}}
+{{- with $page.Params.image -}}
+  {{- if not (reflect.IsMap .) -}}
+    {{- $img = $page.Resources.Get . -}}
+    {{- if not $img }}{{ $img = resources.Get . }}{{ end -}}
+    {{- if not $img }}{{ $img = resources.Get (printf "media/%s" (path.Base .)) }}{{ end -}}
+  {{- end -}}
+{{- end -}}
+{{- if not $img }}{{ $img = $page.Resources.GetMatch "featured.*" }}{{ end -}}
+{{- return $img -}}
